@@ -33155,7 +33155,7 @@ func (p SwigcptrSwigDirector_Call) Swigcptr() uintptr {
 
 
 var swigDirectorTrack struct {
-	sync.RWMutex
+	sync.Mutex
 	m map[int]interface{}
 	c int
 }
@@ -33173,8 +33173,8 @@ func swigDirectorAdd(v interface{}) int {
 }
 
 func swigDirectorLookup(c int) interface{} {
-	swigDirectorTrack.RLock()
-	defer swigDirectorTrack.RUnlock()
+	swigDirectorTrack.Lock()
+	defer swigDirectorTrack.Unlock()
 	ret := swigDirectorTrack.m[c]
 	if ret == nil {
 		panic("C++ director pointer not found (possible	use-after-free)")

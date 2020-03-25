@@ -13,7 +13,7 @@
 #define SWIGMODULE pjsua2
 #define SWIG_DIRECTORS
 
-#ifdef __cplusplus1
+#ifdef __cplusplus
 /* SwigValueWrapper is described in swig.swg */
 template<typename T> class SwigValueWrapper {
   struct SwigMovePointer {
