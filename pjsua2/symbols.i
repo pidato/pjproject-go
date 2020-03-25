@@ -27,6 +27,14 @@ typedef size_t pj_size_t;
 typedef unsigned short uint16_t;
 typedef unsigned short pj_uint16_t;
 
+enum pjmedia_frame_type
+{
+    PJMEDIA_FRAME_TYPE_NONE,	    /**< No frame.		*/
+    PJMEDIA_FRAME_TYPE_AUDIO,	    /**< Normal audio frame.	*/
+    PJMEDIA_FRAME_TYPE_EXTENDED,    /**< Extended audio frame.	*/
+    PJMEDIA_FRAME_TYPE_VIDEO        /**< Video frame.           */
+};
+
 enum pj_file_access
 {
   PJ_O_RDONLY = 0x1101,

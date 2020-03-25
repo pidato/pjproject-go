@@ -105,22 +105,15 @@ struct PiEncoderStats {
     pj_uint64_t totalEncoderWaitNanos;
 };
 
-//class PiAudioFrameHandler {
-//public:
-//    virtual void onFrames(void **frames, int16_t size) {
-//
-//    }
-//};
-
 /**
  * Encodes raw PCM to Opus with using WebRTC Voice Activity Detection to minimize
  * Opus encoder CPU cycles by a hybrid form of DTX (discontinuous transmission).
  */
-class PiEncoder : public AudioMedia {
+class PiRecorder : public AudioMedia {
 public:
-    PiEncoder();
+    PiRecorder();
 
-    virtual ~PiEncoder();
+    virtual ~PiRecorder();
 
     /**
      *
@@ -298,11 +291,11 @@ private:
 /**
  * Minimal low level port port playing raw PCM data.
  */
-class PiPlayer : public AudioMedia {
+class PiPort : public AudioMedia {
 public:
-    PiPlayer();
+    PiPort();
 
-    virtual ~PiPlayer();
+    virtual ~PiPort();
 
     void create() PJSUA2_THROW(Error);
 
@@ -346,17 +339,37 @@ public:
      * @param timestamp
      * @param bit_info
      */
-    virtual void onGetFrame(
+    virtual void onPutFrame(
+            pjmedia_frame_type frameType,
             void *pcm,
             pj_size_t size,
             pj_uint64_t timestamp,
             pj_uint32_t bit_info
     ) {}
 
+    /**
+     * Called when the next frame is needed.
+     *
+     * @param frame_number
+     * @param pcm pointer to buffer to copy data to
+     * @param size maximum size of buffer
+     * @param timestamp
+     * @param bit_info
+     */
+    virtual void onGetFrame(
+            pjmedia_frame_type frameType,
+            void *pcm,
+            pj_size_t size,
+            pj_uint64_t timestamp,
+            pj_uint32_t bit_info
+    ) {}
+
+    virtual void onDestroy() {}
+
 private:
     pjmedia_port _base;
     pjsua_conf_port_info _masterInfo;
-    unsigned ptime;
+    unsigned _ptime;
 
     static pj_status_t on_put_frame(pjmedia_port *this_port,
                                     pjmedia_frame *frame);
@@ -366,6 +379,10 @@ private:
 
     static pj_status_t on_destroy(pjmedia_port *this_port);
 };
+
+int SizeofPiAudioFrame();
+
+void PiConfigureLogging(LogConfig *logConfig);
 
 
 #endif //PJPIDATO_LIBRARY_H

@@ -86,9 +86,8 @@ using namespace pj;
 %feature("director") Buddy;
 %feature("director") FindBuddyMatch;
 %feature("director") AudioMediaPlayer;
-%feature("director") PiEncoder;
-%feature("director") PiAudioFrame;
-%feature("director") PiPlayer;
+%feature("director") PiRecorder;
+%feature("director") PiPort;
 
 //
 // STL stuff.

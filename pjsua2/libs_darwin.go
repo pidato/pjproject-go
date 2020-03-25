@@ -11,6 +11,6 @@ package pjsua2
 #cgo LDFLAGS: -ldl -lm -lpthread
 #cgo LDFLAGS: -framework CoreAudio -framework CoreServices -framework AudioUnit -framework AudioToolbox -framework Foundation -framework AppKit -framework AVFoundation -framework CoreGraphics -framework QuartzCore -framework CoreVideo -framework CoreMedia -framework VideoToolbox -framework Security
 #cgo LDFLAGS: -L./mac
-#cgo LDFLAGS: -lpidato
+#cgo LDFLAGS: -lpjproject-2.10
 */
 import "C"

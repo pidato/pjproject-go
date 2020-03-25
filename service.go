@@ -3,10 +3,12 @@ package pj
 import (
 	"github.com/pidato/chanx"
 	"github.com/pidato/pjproject-go/pjsua2"
+	"github.com/rs/zerolog"
 	"os"
 	"sync"
+	"time"
 
-	_ "github.com/pidato/pjproject-go/vad"
+	_ "github.com/pidato/vad-go"
 )
 
 type Message interface {
@@ -30,19 +32,52 @@ var (
 	logWriter = pjsua2.NewDirectorLogWriter(new(LogWriter))
 )
 
+func toPjLogLevel(level zerolog.Level) uint {
+	switch level {
+	case zerolog.TraceLevel:
+		return 7
+	case zerolog.DebugLevel:
+		return 6
+	case zerolog.InfoLevel:
+		return 4
+	case zerolog.WarnLevel:
+		return 3
+	case zerolog.ErrorLevel:
+		return 2
+	case zerolog.FatalLevel:
+		return 1
+	case zerolog.PanicLevel:
+		return 0
+	}
+	return 3
+}
+
 func Start(config Config) (*Service, error) {
 	s := &Service{
 		calls: make(map[string]*Call),
 		ch:    chanx.Make(5),
 	}
 
-	s.Endpoint = pjsua2.NewDirectorEndpoint(s)
+	// SetLogLevel library
+	SetLogLevel(config.LogLevel)
 
+	logConfig := pjsua2.NewLogConfig()
+	//logConfig.SetConsoleLevel(toPjLogLevel(config.LogLevel))
+	logConfig.SetMsgLogging(uint(1))
+	logConfig.SetLevel(uint(6))
+	//logConfig.SetLevel(uint(config.LogLevel))
+	logConfig.SetWriter(logWriter)
+
+	pjsua2.PiConfigureLogging(logConfig)
+	time.Sleep(time.Millisecond * 10)
+
+	epConfig := pjsua2.NewEpConfig()
+	epConfig.SetLogConfig(logConfig)
+
+	s.Endpoint = pjsua2.NewDirectorEndpoint(s)
 	s.Endpoint.LibCreate()
 
-	// SetLogLevel library
-	epConfig := pjsua2.NewEpConfig()
-	epConfig.GetLogConfig().SetLevel(5)
+	pjsua2.PiConfigureLogging(logConfig)
 
 	//switch config.LogLevel {
 	//case zerolog.TraceLevel:
@@ -60,9 +95,9 @@ func Start(config Config) (*Service, error) {
 	//case zerolog.PanicLevel:
 	//	epConfig.GetLogConfig().SetLevel(0)
 	//}
-	SetLogLevel(config.LogLevel)
 
-	epConfig.GetLogConfig().SetWriter(logWriter)
+
+
 
 	if config.MaxCalls == 0 {
 		config.MaxCalls = 1024
@@ -109,23 +144,26 @@ func Start(config Config) (*Service, error) {
 	}
 	s.Endpoint.TransportCreate(pjsua2.PJSIP_TRANSPORT_UDP, transportConfig)
 
-	Infof("[PJSIP] Available codecs:")
+	Debugf("Available codecs:")
 	for i := 0; i < int(s.Endpoint.CodecEnum2().Size()); i++ {
 		c := s.Endpoint.CodecEnum2().Get(i)
-		Infof("\t - %s (priority: %d)", c.GetCodecId(), c.GetPriority())
+		Debugf("\t - %s (priority: %d)", c.GetCodecId(), c.GetPriority())
 	}
 
 	s.Endpoint.LibStart()
 
 	s.AudDevManager().SetNullDev()
 
+	pjsua2.PiConfigureLogging(logConfig)
+
 	var wg sync.WaitGroup
 	wg.Add(1)
 	go s.run(&wg)
 	wg.Wait()
 
-	Infof("[PJSIP] pjsua2 started!")
-
+	Debugf("Media Ports: %d", s.Endpoint.MediaMaxPorts())
+	Debugf("pjproject version: %s", s.Endpoint.LibVersion().GetFull())
+	Warnf("pjsua2 started")
 	return s, nil
 }
 

@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/pidato/pjproject-go"
 	"github.com/pidato/pjproject-go/pjsua2"
+	"github.com/rs/zerolog"
 	"runtime"
 	"time"
 	"unsafe"
@@ -20,7 +21,8 @@ func main() {
 		}
 	}()
 
-	fmt.Println(unsafe.Sizeof(pjsua2.AudioFrame{}))
+	pj.SetLogLevel(zerolog.InfoLevel)
+	pj.Infof("sizeof(AudioFrame) = %d -> %d", unsafe.Sizeof(pjsua2.AudioFrame{}), pjsua2.SizeofPiAudioFrame())
 
 	cfg := pj.NewConfig()
 	cfg.Ptime = 20
@@ -41,10 +43,10 @@ func main() {
 	//player.CreatePlayer("recording.wav", uint(pjsua2.PJMEDIA_FILE_NO_LOOP))
 	player.CreatePlayer("recording.wav")
 
-	encoder := &PiEncoder{
+	encoder := &Recorder{
 		ch: make(chan uint64),
 	}
-	encoder.director = pjsua2.NewDirectorPiEncoder(encoder)
+	encoder.director = pjsua2.NewDirectorPiRecorder(encoder)
 	encoder.director.Create()
 	//pjsua2.PiEncoderAddEncoderThreads(3)
 
@@ -64,9 +66,9 @@ func pidato_create(path string) *C.char {
 	return nil
 }
 
-type PiEncoder struct {
-	//pjsua2.PiEncoder
-	director pjsua2.PiEncoder
+type Recorder struct {
+	//pjsua2.Recorder
+	director pjsua2.PiRecorder
 
 	directorCPU uint64
 	speaking    bool
@@ -74,15 +76,15 @@ type PiEncoder struct {
 	ch chan uint64
 }
 
-func (enc *PiEncoder) OnHeartbeat() {
+func (enc *Recorder) OnHeartbeat() {
 	fmt.Println("onHeartbeat")
 }
 
-func (enc *PiEncoder) OnError(err pjsua2.Error) {
+func (enc *Recorder) OnError(err pjsua2.Error) {
 	fmt.Printf("Err: %s\n", err.GetReason())
 }
 
-func (enc *PiEncoder) OnFrameDTX(framePointer uintptr, prevExternCPU uint64) {
+func (enc *Recorder) OnFrameDTX(framePointer uintptr, prevExternCPU uint64) {
 	//frame := (*pjsua2.AudioFrame)(unsafe.Pointer(framePointer))
 	fmt.Println(framePointer)
 	//if frameNum > 0 && frameNum % 50 == 0 {
@@ -92,7 +94,7 @@ func (enc *PiEncoder) OnFrameDTX(framePointer uintptr, prevExternCPU uint64) {
 	//enc.directorCPU += prevExternCPU
 }
 
-func (enc *PiEncoder) OnFrame(framePointer uintptr, prevExternCPU uint64) {
+func (enc *Recorder) OnFrame(framePointer uintptr, prevExternCPU uint64) {
 	//fmt.Println(framePointer)
 	frame := (*pjsua2.AudioFrame)(unsafe.Pointer(framePointer))
 

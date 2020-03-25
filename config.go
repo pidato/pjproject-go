@@ -27,13 +27,13 @@ type Config struct {
 func NewConfig() Config {
 	return Config{
 		LogLevel: zerolog.DebugLevel,
-		MaxCalls: 1024,
+		MaxCalls: 256,
 		//Threads:  uint(halfCPUs()),
-		Threads:  1,
+		Threads:  2,
 
 		BindAddress:   "",
 		PublicAddress: "",
-		Port:          0,
+		Port:          6000,
 		UserAgent:     "pjsip",
 
 		MediaPorts:      4096,

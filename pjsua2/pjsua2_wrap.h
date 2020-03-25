@@ -202,29 +202,29 @@ class SwigDirector_Call : public pj::Call
   Swig_memory *swig_mem;
 };
 
-class SwigDirector_PiEncoder : public PiEncoder
+class SwigDirector_PiRecorder : public PiRecorder
 {
  public:
-  SwigDirector_PiEncoder(int swig_p);
-  virtual ~SwigDirector_PiEncoder();
+  SwigDirector_PiRecorder(int swig_p);
+  virtual ~SwigDirector_PiRecorder();
   void _swig_upcall_onHeartbeat() {
-    PiEncoder::onHeartbeat();
+    PiRecorder::onHeartbeat();
   }
   virtual void onHeartbeat();
   void _swig_upcall_onError(pj::Error &e) {
-    PiEncoder::onError(e);
+    PiRecorder::onError(e);
   }
   virtual void onError(pj::Error &e);
   void _swig_upcall_onFrameDTX(void *frame, pj_uint64_t prevExternCPU) {
-    PiEncoder::onFrameDTX(frame,prevExternCPU);
+    PiRecorder::onFrameDTX(frame,prevExternCPU);
   }
   virtual void onFrameDTX(void *frame, pj_uint64_t prevExternCPU);
   void _swig_upcall_onFrame(void *frame, pj_uint64_t prevExternCPU) {
-    PiEncoder::onFrame(frame,prevExternCPU);
+    PiRecorder::onFrame(frame,prevExternCPU);
   }
   virtual void onFrame(void *frame, pj_uint64_t prevExternCPU);
   void _swig_upcall_onDestroy() {
-    PiEncoder::onDestroy();
+    PiRecorder::onDestroy();
   }
   virtual void onDestroy();
  private:
@@ -232,15 +232,23 @@ class SwigDirector_PiEncoder : public PiEncoder
   Swig_memory *swig_mem;
 };
 
-class SwigDirector_PiPlayer : public PiPlayer
+class SwigDirector_PiPort : public PiPort
 {
  public:
-  SwigDirector_PiPlayer(int swig_p);
-  virtual ~SwigDirector_PiPlayer();
-  void _swig_upcall_onGetFrame(void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info) {
-    PiPlayer::onGetFrame(pcm,size,timestamp,bit_info);
+  SwigDirector_PiPort(int swig_p);
+  virtual ~SwigDirector_PiPort();
+  void _swig_upcall_onPutFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info) {
+    PiPort::onPutFrame(frameType,pcm,size,timestamp,bit_info);
   }
-  virtual void onGetFrame(void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info);
+  virtual void onPutFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info);
+  void _swig_upcall_onGetFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info) {
+    PiPort::onGetFrame(frameType,pcm,size,timestamp,bit_info);
+  }
+  virtual void onGetFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info);
+  void _swig_upcall_onDestroy() {
+    PiPort::onDestroy();
+  }
+  virtual void onDestroy();
  private:
   intgo go_val;
   Swig_memory *swig_mem;
