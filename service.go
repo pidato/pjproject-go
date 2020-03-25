@@ -7,8 +7,6 @@ import (
 	"os"
 	"sync"
 	"time"
-
-	_ "github.com/pidato/vad-go"
 )
 
 type Message interface {
