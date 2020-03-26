@@ -1,4 +1,4 @@
 swig -c++ -go -cgo -intgosize 64 \
     -outcurrentdir \
-    -I./include/mac \
+    -I./include/linux \
     ./pjsua2.i
