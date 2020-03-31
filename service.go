@@ -17,7 +17,7 @@ type Service struct {
 	pjsua2.Endpoint
 
 	epConfig pjsua2.EpConfig
-	calls    map[string]*Call
+	calls    map[string]*call
 	counter  uint32
 
 	closed bool
@@ -52,7 +52,7 @@ func toPjLogLevel(level zerolog.Level) uint {
 
 func Start(config Config) (*Service, error) {
 	s := &Service{
-		calls: make(map[string]*Call),
+		calls: make(map[string]*call),
 		ch:    chanx.Make(5),
 	}
 
@@ -76,26 +76,6 @@ func Start(config Config) (*Service, error) {
 	s.Endpoint.LibCreate()
 
 	pjsua2.PiConfigureLogging(logConfig)
-
-	//switch config.LogLevel {
-	//case zerolog.TraceLevel:
-	//	epConfig.GetLogConfig().SetLevel(7)
-	//case zerolog.DebugLevel:
-	//	epConfig.GetLogConfig().SetLevel(6)
-	//case zerolog.InfoLevel:
-	//	epConfig.GetLogConfig().SetLevel(4)
-	//case zerolog.WarnLevel:
-	//	epConfig.GetLogConfig().SetLevel(3)
-	//case zerolog.ErrorLevel:
-	//	epConfig.GetLogConfig().SetLevel(2)
-	//case zerolog.FatalLevel:
-	//	epConfig.GetLogConfig().SetLevel(1)
-	//case zerolog.PanicLevel:
-	//	epConfig.GetLogConfig().SetLevel(0)
-	//}
-
-
-
 
 	if config.MaxCalls == 0 {
 		config.MaxCalls = 1024

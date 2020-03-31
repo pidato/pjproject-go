@@ -3,7 +3,7 @@
 package pjsua2
 
 /*
-#cgo CXXFLAGS: -DPJ_AUTOCONF=1 -O3 -DPJ_IS_BIG_ENDIAN=0 -Wno-delete-non-virtual-dtor -Wunused-function
+#cgo CXXFLAGS: -DPJ_AUTOCONF=1 -O3 -DPJ_IS_BIG_ENDIAN=0 -Wno-delete-non-virtual-dtor -Wno-unused-function
 #cgo CXXFLAGS: -Wall -fPIC
 #cgo CXXFLAGS: -DPJ_IS_LITTLE_ENDIAN=1
 #cgo CXXFLAGS: -DPJMEDIA_USE_OLD_FFMPEG=1

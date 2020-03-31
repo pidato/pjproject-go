@@ -34,7 +34,7 @@ func NewConfig() Config {
 		BindAddress:   "",
 		PublicAddress: "",
 		Port:          6000,
-		UserAgent:     "pjsip",
+		UserAgent:     "pidato-pjsip",
 
 		MediaPorts:      4096,
 		NoVad:           false,

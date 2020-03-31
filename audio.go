@@ -6,7 +6,7 @@ import (
 )
 
 type Audio struct {
-	call     *Call             // Associated call if available.
+	call     *call             // Associated call if available.
 	media    pjsua2.AudioMedia // Media
 	inbound  []*Audio          // Receiving list of senders.
 	outbound []*Audio          // Sending list of receivers.
