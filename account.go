@@ -28,8 +28,8 @@ func newPeerAccount(config *PeerAccountConfig) *account {
 		mu:      sync.RWMutex{},
 	}
 	a.account = pjsua2.NewDirectorAccount(a)
-	pjsua2.NewAccountConfig()
-	pjsua2.DeleteAccountConfig()
+	//pjsua2.NewAccountConfig()
+	//pjsua2.DeleteAccountConfig()
 	return a
 }
 

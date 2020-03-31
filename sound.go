@@ -6,6 +6,8 @@ import (
 	"reflect"
 	"sync"
 	"unsafe"
+
+	_ "github.com/pidato/audio/opus"
 )
 
 var emptyFrame = make([]int16, 10000)
@@ -60,7 +62,7 @@ func (p *PlaylistPlayer) Close() error {
 	}
 
 	p.closed = true
-	exec(func() {
+	return exec(func() {
 
 	})
 }

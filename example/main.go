@@ -9,6 +9,9 @@ import (
 	"runtime"
 	"time"
 	"unsafe"
+
+	_ "github.com/pidato/audio/opus"
+	_ "github.com/pidato/vad-go"
 )
 
 func main() {

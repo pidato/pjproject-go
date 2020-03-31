@@ -8,7 +8,7 @@ package pjsua2
 #cgo CXXFLAGS: -DPJ_IS_BIG_ENDIAN=0 -DPJ_IS_LITTLE_ENDIAN=1
 #cgo CXXFLAGS: -DPJMEDIA_USE_OLD_FFMPEG=1
 #cgo CXXFLAGS: -I./include/linux
-#cgo LDFLAGS: -ldl -luuid -lm -lpthread
+#cgo LDFLAGS: -ldl -luuid  -lm -lpthread
 #cgo LDFLAGS: -L./linux
 #cgo LDFLAGS: -lpjproject-2.10
 */
