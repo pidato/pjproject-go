@@ -1091,16 +1091,6 @@ void SwigDirector_PiRecorder::onError(pj::Error &e) {
   Swig_DirectorPiRecorder_callback_onError_pjsua2_d4108fe45f6933ce(go_val, swig_arg2);
 }
 
-extern "C" void Swig_DirectorPiRecorder_callback_onFrameDTX_pjsua2_d4108fe45f6933ce(int, void *arg2, long long arg3);
-void SwigDirector_PiRecorder::onFrameDTX(void *frame, pj_uint64_t prevExternCPU) {
-  void *swig_arg2;
-  long long swig_arg3;
-  
-  *(void **)&swig_arg2 = (void *)frame; 
-  swig_arg3 = (pj_uint64_t)prevExternCPU; 
-  Swig_DirectorPiRecorder_callback_onFrameDTX_pjsua2_d4108fe45f6933ce(go_val, swig_arg2, swig_arg3);
-}
-
 extern "C" void Swig_DirectorPiRecorder_callback_onFrame_pjsua2_d4108fe45f6933ce(int, void *arg2, long long arg3);
 void SwigDirector_PiRecorder::onFrame(void *frame, pj_uint64_t prevExternCPU) {
   void *swig_arg2;
@@ -1129,7 +1119,7 @@ SwigDirector_PiPort::~SwigDirector_PiPort()
 }
 
 extern "C" void Swig_DirectorPiPort_callback_onPutFrame_pjsua2_d4108fe45f6933ce(int, intgo arg2, void *arg3, long long arg4, long long arg5, intgo arg6);
-void SwigDirector_PiPort::onPutFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info) {
+void SwigDirector_PiPort::onPutFrame(pjmedia_frame_type frameType, void *pcm, size_t size, unsigned long long timestamp, unsigned int bit_info) {
   intgo swig_arg2;
   void *swig_arg3;
   long long swig_arg4;
@@ -1139,13 +1129,13 @@ void SwigDirector_PiPort::onPutFrame(pjmedia_frame_type frameType, void *pcm, pj
   swig_arg2 = (intgo)frameType; 
   *(void **)&swig_arg3 = (void *)pcm; 
   swig_arg4 = (size_t)size; 
-  swig_arg5 = (pj_uint64_t)timestamp; 
-  swig_arg6 = (pj_uint32_t)bit_info; 
+  swig_arg5 = (unsigned long long)timestamp; 
+  swig_arg6 = (unsigned int)bit_info; 
   Swig_DirectorPiPort_callback_onPutFrame_pjsua2_d4108fe45f6933ce(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5, swig_arg6);
 }
 
 extern "C" void Swig_DirectorPiPort_callback_onGetFrame_pjsua2_d4108fe45f6933ce(int, intgo arg2, void *arg3, long long arg4, long long arg5, intgo arg6);
-void SwigDirector_PiPort::onGetFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info) {
+void SwigDirector_PiPort::onGetFrame(pjmedia_frame_type frameType, void *pcm, size_t size, unsigned long long timestamp, unsigned int bit_info) {
   intgo swig_arg2;
   void *swig_arg3;
   long long swig_arg4;
@@ -1155,8 +1145,8 @@ void SwigDirector_PiPort::onGetFrame(pjmedia_frame_type frameType, void *pcm, pj
   swig_arg2 = (intgo)frameType; 
   *(void **)&swig_arg3 = (void *)pcm; 
   swig_arg4 = (size_t)size; 
-  swig_arg5 = (pj_uint64_t)timestamp; 
-  swig_arg6 = (pj_uint32_t)bit_info; 
+  swig_arg5 = (unsigned long long)timestamp; 
+  swig_arg6 = (unsigned int)bit_info; 
   Swig_DirectorPiPort_callback_onGetFrame_pjsua2_d4108fe45f6933ce(go_val, swig_arg2, swig_arg3, swig_arg4, swig_arg5, swig_arg6);
 }
 
@@ -37676,14 +37666,14 @@ PiAudioFrame *_wrap_PiAudioFrameBuffer_tail_pjsua2_d4108fe45f6933ce(PiAudioFrame
 }
 
 
-PiAudioFrame *_wrap_PiAudioFrameBuffer_get_pjsua2_d4108fe45f6933ce(PiAudioFrameBuffer *_swig_go_0, intgo _swig_go_1) {
+PiAudioFrame *_wrap_PiAudioFrameBuffer_get_pjsua2_d4108fe45f6933ce(PiAudioFrameBuffer *_swig_go_0, long long _swig_go_1) {
   PiAudioFrameBuffer *arg1 = (PiAudioFrameBuffer *) 0 ;
-  int arg2 ;
+  size_t arg2 ;
   PiAudioFrame *result = 0 ;
   PiAudioFrame *_swig_go_result;
   
   arg1 = *(PiAudioFrameBuffer **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg2 = (size_t)_swig_go_1; 
   
   result = (PiAudioFrame *)(arg1)->get(arg2);
   *(PiAudioFrame **)&_swig_go_result = (PiAudioFrame *)result; 
@@ -37691,14 +37681,14 @@ PiAudioFrame *_wrap_PiAudioFrameBuffer_get_pjsua2_d4108fe45f6933ce(PiAudioFrameB
 }
 
 
-PiAudioFrame *_wrap_PiAudioFrameBuffer_back_pjsua2_d4108fe45f6933ce(PiAudioFrameBuffer *_swig_go_0, intgo _swig_go_1) {
+PiAudioFrame *_wrap_PiAudioFrameBuffer_back_pjsua2_d4108fe45f6933ce(PiAudioFrameBuffer *_swig_go_0, long long _swig_go_1) {
   PiAudioFrameBuffer *arg1 = (PiAudioFrameBuffer *) 0 ;
-  int arg2 ;
+  size_t arg2 ;
   PiAudioFrame *result = 0 ;
   PiAudioFrame *_swig_go_result;
   
   arg1 = *(PiAudioFrameBuffer **)&_swig_go_0; 
-  arg2 = (int)_swig_go_1; 
+  arg2 = (size_t)_swig_go_1; 
   
   result = (PiAudioFrame *)(arg1)->back(arg2);
   *(PiAudioFrame **)&_swig_go_result = (PiAudioFrame *)result; 
@@ -37708,10 +37698,10 @@ PiAudioFrame *_wrap_PiAudioFrameBuffer_back_pjsua2_d4108fe45f6933ce(PiAudioFrame
 
 void _wrap_PiEncoderStats_frameCount_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->frameCount = arg2;
   
@@ -37720,12 +37710,12 @@ void _wrap_PiEncoderStats_frameCount_set_pjsua2_d4108fe45f6933ce(PiEncoderStats 
 
 long long _wrap_PiEncoderStats_frameCount_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->frameCount);
+  result = (unsigned long long) ((arg1)->frameCount);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37733,10 +37723,10 @@ long long _wrap_PiEncoderStats_frameCount_get_pjsua2_d4108fe45f6933ce(PiEncoderS
 
 void _wrap_PiEncoderStats_dtxFramesSkipped_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->dtxFramesSkipped = arg2;
   
@@ -37745,12 +37735,12 @@ void _wrap_PiEncoderStats_dtxFramesSkipped_set_pjsua2_d4108fe45f6933ce(PiEncoder
 
 long long _wrap_PiEncoderStats_dtxFramesSkipped_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->dtxFramesSkipped);
+  result = (unsigned long long) ((arg1)->dtxFramesSkipped);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37758,10 +37748,10 @@ long long _wrap_PiEncoderStats_dtxFramesSkipped_get_pjsua2_d4108fe45f6933ce(PiEn
 
 void _wrap_PiEncoderStats_dtxFramesMissed_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->dtxFramesMissed = arg2;
   
@@ -37770,12 +37760,12 @@ void _wrap_PiEncoderStats_dtxFramesMissed_set_pjsua2_d4108fe45f6933ce(PiEncoderS
 
 long long _wrap_PiEncoderStats_dtxFramesMissed_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->dtxFramesMissed);
+  result = (unsigned long long) ((arg1)->dtxFramesMissed);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37783,10 +37773,10 @@ long long _wrap_PiEncoderStats_dtxFramesMissed_get_pjsua2_d4108fe45f6933ce(PiEnc
 
 void _wrap_PiEncoderStats_totalVadCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->totalVadCpu = arg2;
   
@@ -37795,12 +37785,12 @@ void _wrap_PiEncoderStats_totalVadCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderStats
 
 long long _wrap_PiEncoderStats_totalVadCpu_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->totalVadCpu);
+  result = (unsigned long long) ((arg1)->totalVadCpu);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37808,10 +37798,10 @@ long long _wrap_PiEncoderStats_totalVadCpu_get_pjsua2_d4108fe45f6933ce(PiEncoder
 
 void _wrap_PiEncoderStats_totalOpusCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->totalOpusCpu = arg2;
   
@@ -37820,12 +37810,12 @@ void _wrap_PiEncoderStats_totalOpusCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderStat
 
 long long _wrap_PiEncoderStats_totalOpusCpu_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->totalOpusCpu);
+  result = (unsigned long long) ((arg1)->totalOpusCpu);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37833,10 +37823,10 @@ long long _wrap_PiEncoderStats_totalOpusCpu_get_pjsua2_d4108fe45f6933ce(PiEncode
 
 void _wrap_PiEncoderStats_totalExternCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->totalExternCpu = arg2;
   
@@ -37845,12 +37835,12 @@ void _wrap_PiEncoderStats_totalExternCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderSt
 
 long long _wrap_PiEncoderStats_totalExternCpu_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->totalExternCpu);
+  result = (unsigned long long) ((arg1)->totalExternCpu);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37858,10 +37848,10 @@ long long _wrap_PiEncoderStats_totalExternCpu_get_pjsua2_d4108fe45f6933ce(PiEnco
 
 void _wrap_PiEncoderStats_lastExternCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->lastExternCpu = arg2;
   
@@ -37870,12 +37860,12 @@ void _wrap_PiEncoderStats_lastExternCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderSta
 
 long long _wrap_PiEncoderStats_lastExternCpu_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->lastExternCpu);
+  result = (unsigned long long) ((arg1)->lastExternCpu);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37883,10 +37873,10 @@ long long _wrap_PiEncoderStats_lastExternCpu_get_pjsua2_d4108fe45f6933ce(PiEncod
 
 void _wrap_PiEncoderStats_heartbeatCount_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->heartbeatCount = arg2;
   
@@ -37895,12 +37885,12 @@ void _wrap_PiEncoderStats_heartbeatCount_set_pjsua2_d4108fe45f6933ce(PiEncoderSt
 
 long long _wrap_PiEncoderStats_heartbeatCount_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->heartbeatCount);
+  result = (unsigned long long) ((arg1)->heartbeatCount);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37908,10 +37898,10 @@ long long _wrap_PiEncoderStats_heartbeatCount_get_pjsua2_d4108fe45f6933ce(PiEnco
 
 void _wrap_PiEncoderStats_totalHeartbeatCpu_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->totalHeartbeatCpu = arg2;
   
@@ -37920,12 +37910,12 @@ void _wrap_PiEncoderStats_totalHeartbeatCpu_set_pjsua2_d4108fe45f6933ce(PiEncode
 
 long long _wrap_PiEncoderStats_totalHeartbeatCpu_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->totalHeartbeatCpu);
+  result = (unsigned long long) ((arg1)->totalHeartbeatCpu);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37933,10 +37923,10 @@ long long _wrap_PiEncoderStats_totalHeartbeatCpu_get_pjsua2_d4108fe45f6933ce(PiE
 
 void _wrap_PiEncoderStats_totalEnqueueNanos_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->totalEnqueueNanos = arg2;
   
@@ -37945,12 +37935,12 @@ void _wrap_PiEncoderStats_totalEnqueueNanos_set_pjsua2_d4108fe45f6933ce(PiEncode
 
 long long _wrap_PiEncoderStats_totalEnqueueNanos_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->totalEnqueueNanos);
+  result = (unsigned long long) ((arg1)->totalEnqueueNanos);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -37958,10 +37948,10 @@ long long _wrap_PiEncoderStats_totalEnqueueNanos_get_pjsua2_d4108fe45f6933ce(PiE
 
 void _wrap_PiEncoderStats_totalEncoderWaitNanos_set_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0, long long _swig_go_1) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t arg2 ;
+  unsigned long long arg2 ;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
-  arg2 = (pj_uint64_t)_swig_go_1; 
+  arg2 = (unsigned long long)_swig_go_1; 
   
   if (arg1) (arg1)->totalEncoderWaitNanos = arg2;
   
@@ -37970,12 +37960,12 @@ void _wrap_PiEncoderStats_totalEncoderWaitNanos_set_pjsua2_d4108fe45f6933ce(PiEn
 
 long long _wrap_PiEncoderStats_totalEncoderWaitNanos_get_pjsua2_d4108fe45f6933ce(PiEncoderStats *_swig_go_0) {
   PiEncoderStats *arg1 = (PiEncoderStats *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiEncoderStats **)&_swig_go_0; 
   
-  result = (pj_uint64_t) ((arg1)->totalEncoderWaitNanos);
+  result = (unsigned long long) ((arg1)->totalEncoderWaitNanos);
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -38043,20 +38033,6 @@ void _wrap__swig_DirectorPiRecorder_upcall_OnError_pjsua2_d4108fe45f6933ce(SwigD
   arg2 = *(pj::Error **)&_swig_go_1; 
   
   arg1->_swig_upcall_onError(*arg2);
-  
-}
-
-
-void _wrap__swig_DirectorPiRecorder_upcall_OnFrameDTX_pjsua2_d4108fe45f6933ce(SwigDirector_PiRecorder *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
-  SwigDirector_PiRecorder *arg1 = (SwigDirector_PiRecorder *) 0 ;
-  void *arg2 = (void *) 0 ;
-  pj_uint64_t arg3 ;
-  
-  arg1 = *(SwigDirector_PiRecorder **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (pj_uint64_t)_swig_go_2; 
-  
-  arg1->_swig_upcall_onFrameDTX(arg2, arg3);
   
 }
 
@@ -38334,12 +38310,12 @@ PiEncoderStats *_wrap_PiRecorder_getStats_pjsua2_d4108fe45f6933ce(PiRecorder *_s
 
 long long _wrap_PiRecorder_getTotalVadCpu_pjsua2_d4108fe45f6933ce(PiRecorder *_swig_go_0) {
   PiRecorder *arg1 = (PiRecorder *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiRecorder **)&_swig_go_0; 
   
-  result = (pj_uint64_t)(arg1)->getTotalVadCpu();
+  result = (unsigned long long)(arg1)->getTotalVadCpu();
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -38347,12 +38323,12 @@ long long _wrap_PiRecorder_getTotalVadCpu_pjsua2_d4108fe45f6933ce(PiRecorder *_s
 
 long long _wrap_PiRecorder_getTotalOpusCpu_pjsua2_d4108fe45f6933ce(PiRecorder *_swig_go_0) {
   PiRecorder *arg1 = (PiRecorder *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiRecorder **)&_swig_go_0; 
   
-  result = (pj_uint64_t)(arg1)->getTotalOpusCpu();
+  result = (unsigned long long)(arg1)->getTotalOpusCpu();
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -38360,12 +38336,12 @@ long long _wrap_PiRecorder_getTotalOpusCpu_pjsua2_d4108fe45f6933ce(PiRecorder *_
 
 long long _wrap_PiRecorder_getTotalExternCpu_pjsua2_d4108fe45f6933ce(PiRecorder *_swig_go_0) {
   PiRecorder *arg1 = (PiRecorder *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiRecorder **)&_swig_go_0; 
   
-  result = (pj_uint64_t)(arg1)->getTotalExternCpu();
+  result = (unsigned long long)(arg1)->getTotalExternCpu();
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -38373,12 +38349,12 @@ long long _wrap_PiRecorder_getTotalExternCpu_pjsua2_d4108fe45f6933ce(PiRecorder 
 
 long long _wrap_PiRecorder_getLastExternCpu_pjsua2_d4108fe45f6933ce(PiRecorder *_swig_go_0) {
   PiRecorder *arg1 = (PiRecorder *) 0 ;
-  pj_uint64_t result;
+  unsigned long long result;
   long long _swig_go_result;
   
   arg1 = *(PiRecorder **)&_swig_go_0; 
   
-  result = (pj_uint64_t)(arg1)->getLastExternCpu();
+  result = (unsigned long long)(arg1)->getLastExternCpu();
   _swig_go_result = result; 
   return _swig_go_result;
 }
@@ -38402,20 +38378,6 @@ void _wrap_PiRecorder_onError_pjsua2_d4108fe45f6933ce(PiRecorder *_swig_go_0, pj
   arg2 = *(pj::Error **)&_swig_go_1; 
   
   (arg1)->onError(*arg2);
-  
-}
-
-
-void _wrap_PiRecorder_onFrameDTX_pjsua2_d4108fe45f6933ce(PiRecorder *_swig_go_0, void *_swig_go_1, long long _swig_go_2) {
-  PiRecorder *arg1 = (PiRecorder *) 0 ;
-  void *arg2 = (void *) 0 ;
-  pj_uint64_t arg3 ;
-  
-  arg1 = *(PiRecorder **)&_swig_go_0; 
-  arg2 = *(void **)&_swig_go_1; 
-  arg3 = (pj_uint64_t)_swig_go_2; 
-  
-  (arg1)->onFrameDTX(arg2,arg3);
   
 }
 
@@ -38662,16 +38624,16 @@ void _wrap__swig_DirectorPiPort_upcall_OnPutFrame_pjsua2_d4108fe45f6933ce(SwigDi
   SwigDirector_PiPort *arg1 = (SwigDirector_PiPort *) 0 ;
   pjmedia_frame_type arg2 ;
   void *arg3 = (void *) 0 ;
-  pj_size_t arg4 ;
-  pj_uint64_t arg5 ;
-  pj_uint32_t arg6 ;
+  size_t arg4 ;
+  unsigned long long arg5 ;
+  unsigned int arg6 ;
   
   arg1 = *(SwigDirector_PiPort **)&_swig_go_0; 
   arg2 = (pjmedia_frame_type)_swig_go_1; 
   arg3 = *(void **)&_swig_go_2; 
   arg4 = (size_t)_swig_go_3; 
-  arg5 = (pj_uint64_t)_swig_go_4; 
-  arg6 = (pj_uint32_t)_swig_go_5; 
+  arg5 = (unsigned long long)_swig_go_4; 
+  arg6 = (unsigned int)_swig_go_5; 
   
   arg1->_swig_upcall_onPutFrame(arg2, arg3, arg4, arg5, arg6);
   
@@ -38682,16 +38644,16 @@ void _wrap__swig_DirectorPiPort_upcall_OnGetFrame_pjsua2_d4108fe45f6933ce(SwigDi
   SwigDirector_PiPort *arg1 = (SwigDirector_PiPort *) 0 ;
   pjmedia_frame_type arg2 ;
   void *arg3 = (void *) 0 ;
-  pj_size_t arg4 ;
-  pj_uint64_t arg5 ;
-  pj_uint32_t arg6 ;
+  size_t arg4 ;
+  unsigned long long arg5 ;
+  unsigned int arg6 ;
   
   arg1 = *(SwigDirector_PiPort **)&_swig_go_0; 
   arg2 = (pjmedia_frame_type)_swig_go_1; 
   arg3 = *(void **)&_swig_go_2; 
   arg4 = (size_t)_swig_go_3; 
-  arg5 = (pj_uint64_t)_swig_go_4; 
-  arg6 = (pj_uint32_t)_swig_go_5; 
+  arg5 = (unsigned long long)_swig_go_4; 
+  arg6 = (unsigned int)_swig_go_5; 
   
   arg1->_swig_upcall_onGetFrame(arg2, arg3, arg4, arg5, arg6);
   
@@ -38840,16 +38802,16 @@ void _wrap_PiPort_onPutFrame_pjsua2_d4108fe45f6933ce(PiPort *_swig_go_0, intgo _
   PiPort *arg1 = (PiPort *) 0 ;
   pjmedia_frame_type arg2 ;
   void *arg3 = (void *) 0 ;
-  pj_size_t arg4 ;
-  pj_uint64_t arg5 ;
-  pj_uint32_t arg6 ;
+  size_t arg4 ;
+  unsigned long long arg5 ;
+  unsigned int arg6 ;
   
   arg1 = *(PiPort **)&_swig_go_0; 
   arg2 = (pjmedia_frame_type)_swig_go_1; 
   arg3 = *(void **)&_swig_go_2; 
   arg4 = (size_t)_swig_go_3; 
-  arg5 = (pj_uint64_t)_swig_go_4; 
-  arg6 = (pj_uint32_t)_swig_go_5; 
+  arg5 = (unsigned long long)_swig_go_4; 
+  arg6 = (unsigned int)_swig_go_5; 
   
   (arg1)->onPutFrame(arg2,arg3,arg4,arg5,arg6);
   
@@ -38860,16 +38822,16 @@ void _wrap_PiPort_onGetFrame_pjsua2_d4108fe45f6933ce(PiPort *_swig_go_0, intgo _
   PiPort *arg1 = (PiPort *) 0 ;
   pjmedia_frame_type arg2 ;
   void *arg3 = (void *) 0 ;
-  pj_size_t arg4 ;
-  pj_uint64_t arg5 ;
-  pj_uint32_t arg6 ;
+  size_t arg4 ;
+  unsigned long long arg5 ;
+  unsigned int arg6 ;
   
   arg1 = *(PiPort **)&_swig_go_0; 
   arg2 = (pjmedia_frame_type)_swig_go_1; 
   arg3 = *(void **)&_swig_go_2; 
   arg4 = (size_t)_swig_go_3; 
-  arg5 = (pj_uint64_t)_swig_go_4; 
-  arg6 = (pj_uint32_t)_swig_go_5; 
+  arg5 = (unsigned long long)_swig_go_4; 
+  arg6 = (unsigned int)_swig_go_5; 
   
   (arg1)->onGetFrame(arg2,arg3,arg4,arg5,arg6);
   

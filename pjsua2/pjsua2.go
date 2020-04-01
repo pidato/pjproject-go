@@ -515,7 +515,7 @@ typedef long long swig_type_484;
 typedef long long swig_type_485;
 typedef long long swig_type_486;
 typedef long long swig_type_487;
-typedef _gostring_ swig_type_488;
+typedef long long swig_type_488;
 typedef _gostring_ swig_type_489;
 typedef _gostring_ swig_type_490;
 typedef _gostring_ swig_type_491;
@@ -569,9 +569,9 @@ typedef _gostring_ swig_type_538;
 typedef _gostring_ swig_type_539;
 typedef _gostring_ swig_type_540;
 typedef _gostring_ swig_type_541;
-typedef long long swig_type_542;
+typedef _gostring_ swig_type_542;
 typedef long long swig_type_543;
-typedef _gostring_ swig_type_544;
+typedef long long swig_type_544;
 typedef _gostring_ swig_type_545;
 typedef _gostring_ swig_type_546;
 typedef _gostring_ swig_type_547;
@@ -588,6 +588,7 @@ typedef _gostring_ swig_type_557;
 typedef _gostring_ swig_type_558;
 typedef _gostring_ swig_type_559;
 typedef _gostring_ swig_type_560;
+typedef _gostring_ swig_type_561;
 extern void _wrap_Swig_free_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_Swig_malloc_pjsua2_d4108fe45f6933ce(swig_intgo arg1);
 extern swig_intgo _wrap_PJ_SUCCESS_pjsua2_d4108fe45f6933ce(void);
@@ -3358,38 +3359,37 @@ extern void _wrap_PiAudioFrameBuffer_clear_pjsua2_d4108fe45f6933ce(uintptr_t arg
 extern swig_intgo _wrap_PiAudioFrameBuffer_push_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, swig_type_455 arg4);
 extern uintptr_t _wrap_PiAudioFrameBuffer_head_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_PiAudioFrameBuffer_tail_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern uintptr_t _wrap_PiAudioFrameBuffer_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
-extern uintptr_t _wrap_PiAudioFrameBuffer_back_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_PiEncoderStats_frameCount_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_456 arg2);
-extern swig_type_457 _wrap_PiEncoderStats_frameCount_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_dtxFramesSkipped_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_458 arg2);
-extern swig_type_459 _wrap_PiEncoderStats_dtxFramesSkipped_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_dtxFramesMissed_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_460 arg2);
-extern swig_type_461 _wrap_PiEncoderStats_dtxFramesMissed_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_totalVadCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_462 arg2);
-extern swig_type_463 _wrap_PiEncoderStats_totalVadCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_totalOpusCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_464 arg2);
-extern swig_type_465 _wrap_PiEncoderStats_totalOpusCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_totalExternCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_466 arg2);
-extern swig_type_467 _wrap_PiEncoderStats_totalExternCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_lastExternCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_468 arg2);
-extern swig_type_469 _wrap_PiEncoderStats_lastExternCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_heartbeatCount_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_470 arg2);
-extern swig_type_471 _wrap_PiEncoderStats_heartbeatCount_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_totalHeartbeatCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_472 arg2);
-extern swig_type_473 _wrap_PiEncoderStats_totalHeartbeatCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_totalEnqueueNanos_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_474 arg2);
-extern swig_type_475 _wrap_PiEncoderStats_totalEnqueueNanos_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiEncoderStats_totalEncoderWaitNanos_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_476 arg2);
-extern swig_type_477 _wrap_PiEncoderStats_totalEncoderWaitNanos_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern uintptr_t _wrap_PiAudioFrameBuffer_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_456 arg2);
+extern uintptr_t _wrap_PiAudioFrameBuffer_back_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_457 arg2);
+extern void _wrap_PiEncoderStats_frameCount_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_458 arg2);
+extern swig_type_459 _wrap_PiEncoderStats_frameCount_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_dtxFramesSkipped_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_460 arg2);
+extern swig_type_461 _wrap_PiEncoderStats_dtxFramesSkipped_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_dtxFramesMissed_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_462 arg2);
+extern swig_type_463 _wrap_PiEncoderStats_dtxFramesMissed_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_totalVadCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_464 arg2);
+extern swig_type_465 _wrap_PiEncoderStats_totalVadCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_totalOpusCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_466 arg2);
+extern swig_type_467 _wrap_PiEncoderStats_totalOpusCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_totalExternCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_468 arg2);
+extern swig_type_469 _wrap_PiEncoderStats_totalExternCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_lastExternCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_470 arg2);
+extern swig_type_471 _wrap_PiEncoderStats_lastExternCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_heartbeatCount_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_472 arg2);
+extern swig_type_473 _wrap_PiEncoderStats_heartbeatCount_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_totalHeartbeatCpu_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_474 arg2);
+extern swig_type_475 _wrap_PiEncoderStats_totalHeartbeatCpu_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_totalEnqueueNanos_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_476 arg2);
+extern swig_type_477 _wrap_PiEncoderStats_totalEnqueueNanos_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_PiEncoderStats_totalEncoderWaitNanos_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_478 arg2);
+extern swig_type_479 _wrap_PiEncoderStats_totalEncoderWaitNanos_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_new_PiEncoderStats_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_PiEncoderStats_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap__swig_NewDirectorPiRecorderPiRecorder_pjsua2_d4108fe45f6933ce(int);
 extern void _wrap_DeleteDirectorPiRecorder_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap__swig_DirectorPiRecorder_upcall_OnHeartbeat_pjsua2_d4108fe45f6933ce(uintptr_t);
 extern void _wrap__swig_DirectorPiRecorder_upcall_OnError_pjsua2_d4108fe45f6933ce(uintptr_t, uintptr_t e);
-extern void _wrap__swig_DirectorPiRecorder_upcall_OnFrameDTX_pjsua2_d4108fe45f6933ce(uintptr_t, uintptr_t frame, swig_type_478 prevExternCPU);
-extern void _wrap__swig_DirectorPiRecorder_upcall_OnFrame_pjsua2_d4108fe45f6933ce(uintptr_t, uintptr_t frame, swig_type_479 prevExternCPU);
+extern void _wrap__swig_DirectorPiRecorder_upcall_OnFrame_pjsua2_d4108fe45f6933ce(uintptr_t, uintptr_t frame, swig_type_480 prevExternCPU);
 extern void _wrap__swig_DirectorPiRecorder_upcall_OnDestroy_pjsua2_d4108fe45f6933ce(uintptr_t);
 extern uintptr_t _wrap_new_PiRecorder_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_PiRecorder_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
@@ -3410,14 +3410,13 @@ extern _Bool _wrap_PiRecorder_isSpeaking_pjsua2_d4108fe45f6933ce(uintptr_t arg1)
 extern _Bool _wrap_PiRecorder_isSilent_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_PiRecorder_getOpusEncoder_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_PiRecorder_getStats_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern swig_type_480 _wrap_PiRecorder_getTotalVadCpu_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern swig_type_481 _wrap_PiRecorder_getTotalOpusCpu_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern swig_type_482 _wrap_PiRecorder_getTotalExternCpu_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern swig_type_483 _wrap_PiRecorder_getLastExternCpu_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern swig_type_481 _wrap_PiRecorder_getTotalVadCpu_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern swig_type_482 _wrap_PiRecorder_getTotalOpusCpu_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern swig_type_483 _wrap_PiRecorder_getTotalExternCpu_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern swig_type_484 _wrap_PiRecorder_getLastExternCpu_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_PiRecorder_onHeartbeat_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_PiRecorder_onError_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
-extern void _wrap_PiRecorder_onFrameDTX_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2, swig_type_478 arg3);
-extern void _wrap_PiRecorder_onFrame_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2, swig_type_479 arg3);
+extern void _wrap_PiRecorder_onFrame_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2, swig_type_480 arg3);
 extern void _wrap_PiRecorder_onDestroy_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern swig_intgo _wrap_PiRecorder_encoderThreads_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_PiRecorder_addEncoderThreads_pjsua2_d4108fe45f6933ce(swig_intgo arg1);
@@ -3435,8 +3434,8 @@ extern uintptr_t _wrap_PiRecorder_typecastFromMedia_pjsua2_d4108fe45f6933ce(uint
 extern swig_intgo _wrap_PiRecorder_getType_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
 extern uintptr_t _wrap__swig_NewDirectorPiPortPiPort_pjsua2_d4108fe45f6933ce(int);
 extern void _wrap_DeleteDirectorPiPort_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap__swig_DirectorPiPort_upcall_OnPutFrame_pjsua2_d4108fe45f6933ce(uintptr_t, swig_intgo frameType, uintptr_t pcm, swig_type_484 size, swig_type_485 timestamp, swig_intgo bit_info);
-extern void _wrap__swig_DirectorPiPort_upcall_OnGetFrame_pjsua2_d4108fe45f6933ce(uintptr_t, swig_intgo frameType, uintptr_t pcm, swig_type_486 size, swig_type_487 timestamp, swig_intgo bit_info);
+extern void _wrap__swig_DirectorPiPort_upcall_OnPutFrame_pjsua2_d4108fe45f6933ce(uintptr_t, swig_intgo frameType, uintptr_t pcm, swig_type_485 size, swig_type_486 timestamp, swig_intgo bit_info);
+extern void _wrap__swig_DirectorPiPort_upcall_OnGetFrame_pjsua2_d4108fe45f6933ce(uintptr_t, swig_intgo frameType, uintptr_t pcm, swig_type_487 size, swig_type_488 timestamp, swig_intgo bit_info);
 extern void _wrap__swig_DirectorPiPort_upcall_OnDestroy_pjsua2_d4108fe45f6933ce(uintptr_t);
 extern uintptr_t _wrap_new_PiPort_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_PiPort_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
@@ -3448,8 +3447,8 @@ extern swig_intgo _wrap_PiPort_getPtime_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern swig_intgo _wrap_PiPort_getBitsPerSample_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern float _wrap_PiPort_getTxLevelAdj_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern float _wrap_PiPort_getRxLevelAdj_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_PiPort_onPutFrame_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, swig_type_484 arg4, swig_type_485 arg5, swig_intgo arg6);
-extern void _wrap_PiPort_onGetFrame_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, swig_type_486 arg4, swig_type_487 arg5, swig_intgo arg6);
+extern void _wrap_PiPort_onPutFrame_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, swig_type_485 arg4, swig_type_486 arg5, swig_intgo arg6);
+extern void _wrap_PiPort_onGetFrame_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3, swig_type_487 arg4, swig_type_488 arg5, swig_intgo arg6);
 extern void _wrap_PiPort_onDestroy_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_PiPort_getPortInfo_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
 extern swig_intgo _wrap_PiPort_getPortId_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
@@ -3467,54 +3466,54 @@ extern swig_intgo _wrap_SizeofPiAudioFrame_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_PiConfigureLogging_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_new_JsonDocument_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_JsonDocument_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_JsonDocument_loadFile_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_488 arg2);
-extern void _wrap_JsonDocument_loadString_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_489 arg2);
-extern void _wrap_JsonDocument_saveFile_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_490 arg2);
-extern swig_type_491 _wrap_JsonDocument_saveString_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_JsonDocument_loadFile_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_489 arg2);
+extern void _wrap_JsonDocument_loadString_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_490 arg2);
+extern void _wrap_JsonDocument_saveFile_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_491 arg2);
+extern swig_type_492 _wrap_JsonDocument_saveString_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_JsonDocument_getRootContainer_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern _Bool _wrap_JsonDocument_hasUnread_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
-extern swig_type_492 _wrap_JsonDocument_unreadName_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
-extern swig_intgo _wrap_JsonDocument_readInt__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_493 arg1);
+extern swig_type_493 _wrap_JsonDocument_unreadName_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
+extern swig_intgo _wrap_JsonDocument_readInt__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_494 arg1);
 extern swig_intgo _wrap_JsonDocument_readInt__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
-extern float _wrap_JsonDocument_readNumber__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_494 arg1);
+extern float _wrap_JsonDocument_readNumber__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_495 arg1);
 extern float _wrap_JsonDocument_readNumber__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
-extern _Bool _wrap_JsonDocument_readBool__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_495 arg1);
+extern _Bool _wrap_JsonDocument_readBool__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_496 arg1);
 extern _Bool _wrap_JsonDocument_readBool__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
-extern swig_type_496 _wrap_JsonDocument_readString__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_497 arg1);
-extern swig_type_498 _wrap_JsonDocument_readString__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
-extern uintptr_t _wrap_JsonDocument_readStringVector__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_499 arg1);
+extern swig_type_497 _wrap_JsonDocument_readString__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_498 arg1);
+extern swig_type_499 _wrap_JsonDocument_readString__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
+extern uintptr_t _wrap_JsonDocument_readStringVector__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_500 arg1);
 extern uintptr_t _wrap_JsonDocument_readStringVector__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
 extern void _wrap_JsonDocument_readObject_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, uintptr_t arg1);
-extern uintptr_t _wrap_JsonDocument_readContainer__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_500 arg1);
+extern uintptr_t _wrap_JsonDocument_readContainer__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_501 arg1);
 extern uintptr_t _wrap_JsonDocument_readContainer__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
-extern uintptr_t _wrap_JsonDocument_readArray__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_501 arg1);
+extern uintptr_t _wrap_JsonDocument_readArray__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_502 arg1);
 extern uintptr_t _wrap_JsonDocument_readArray__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base);
-extern void _wrap_JsonDocument_writeNumber_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_502 arg1, float arg2);
-extern void _wrap_JsonDocument_writeInt_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_503 arg1, swig_intgo arg2);
-extern void _wrap_JsonDocument_writeBool_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_504 arg1, _Bool arg2);
-extern void _wrap_JsonDocument_writeString_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_505 arg1, swig_type_506 arg2);
-extern void _wrap_JsonDocument_writeStringVector_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_507 arg1, uintptr_t arg2);
+extern void _wrap_JsonDocument_writeNumber_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_503 arg1, float arg2);
+extern void _wrap_JsonDocument_writeInt_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_504 arg1, swig_intgo arg2);
+extern void _wrap_JsonDocument_writeBool_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_505 arg1, _Bool arg2);
+extern void _wrap_JsonDocument_writeString_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_506 arg1, swig_type_507 arg2);
+extern void _wrap_JsonDocument_writeStringVector_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_508 arg1, uintptr_t arg2);
 extern void _wrap_JsonDocument_writeObject_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, uintptr_t arg1);
-extern uintptr_t _wrap_JsonDocument_writeNewContainer_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_508 arg1);
-extern uintptr_t _wrap_JsonDocument_writeNewArray_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_509 arg1);
+extern uintptr_t _wrap_JsonDocument_writeNewContainer_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_509 arg1);
+extern uintptr_t _wrap_JsonDocument_writeNewArray_pjsua2_d4108fe45f6933ce(uintptr_t _swig_base, swig_type_510 arg1);
 extern void _wrap_OnNatDetectionCompleteParam_status_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_OnNatDetectionCompleteParam_status_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_OnNatDetectionCompleteParam_reason_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_510 arg2);
-extern swig_type_511 _wrap_OnNatDetectionCompleteParam_reason_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_OnNatDetectionCompleteParam_reason_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_511 arg2);
+extern swig_type_512 _wrap_OnNatDetectionCompleteParam_reason_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_OnNatDetectionCompleteParam_natType_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_OnNatDetectionCompleteParam_natType_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_OnNatDetectionCompleteParam_natTypeName_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_512 arg2);
-extern swig_type_513 _wrap_OnNatDetectionCompleteParam_natTypeName_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_OnNatDetectionCompleteParam_natTypeName_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_513 arg2);
+extern swig_type_514 _wrap_OnNatDetectionCompleteParam_natTypeName_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_new_OnNatDetectionCompleteParam_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_OnNatDetectionCompleteParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_OnNatCheckStunServersCompleteParam_userData_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_OnNatCheckStunServersCompleteParam_userData_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_OnNatCheckStunServersCompleteParam_status_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_OnNatCheckStunServersCompleteParam_status_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_OnNatCheckStunServersCompleteParam_name_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_514 arg2);
-extern swig_type_515 _wrap_OnNatCheckStunServersCompleteParam_name_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_OnNatCheckStunServersCompleteParam_addr_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_516 arg2);
-extern swig_type_517 _wrap_OnNatCheckStunServersCompleteParam_addr_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_OnNatCheckStunServersCompleteParam_name_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_515 arg2);
+extern swig_type_516 _wrap_OnNatCheckStunServersCompleteParam_name_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_OnNatCheckStunServersCompleteParam_addr_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_517 arg2);
+extern swig_type_518 _wrap_OnNatCheckStunServersCompleteParam_addr_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_new_OnNatCheckStunServersCompleteParam_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_OnNatCheckStunServersCompleteParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_OnTimerParam_userData_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
@@ -3525,22 +3524,22 @@ extern uintptr_t _wrap_new_OnTimerParam_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_OnTimerParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_SslCertName_Xtype_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_SslCertName_Xtype_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_SslCertName_name_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_518 arg2);
-extern swig_type_519 _wrap_SslCertName_name_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_SslCertName_name_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_519 arg2);
+extern swig_type_520 _wrap_SslCertName_name_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_new_SslCertName_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_SslCertName_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_SslCertInfo_version_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_SslCertInfo_version_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_SslCertInfo_serialNo_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_voidp arg2);
 extern swig_voidp _wrap_SslCertInfo_serialNo_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_SslCertInfo_subjectCn_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_520 arg2);
-extern swig_type_521 _wrap_SslCertInfo_subjectCn_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_SslCertInfo_subjectInfo_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_522 arg2);
-extern swig_type_523 _wrap_SslCertInfo_subjectInfo_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_SslCertInfo_issuerCn_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_524 arg2);
-extern swig_type_525 _wrap_SslCertInfo_issuerCn_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_SslCertInfo_issuerInfo_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_526 arg2);
-extern swig_type_527 _wrap_SslCertInfo_issuerInfo_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_SslCertInfo_subjectCn_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_521 arg2);
+extern swig_type_522 _wrap_SslCertInfo_subjectCn_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_SslCertInfo_subjectInfo_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_523 arg2);
+extern swig_type_524 _wrap_SslCertInfo_subjectInfo_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_SslCertInfo_issuerCn_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_525 arg2);
+extern swig_type_526 _wrap_SslCertInfo_issuerCn_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_SslCertInfo_issuerInfo_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_527 arg2);
+extern swig_type_528 _wrap_SslCertInfo_issuerInfo_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_SslCertInfo_validityStart_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_SslCertInfo_validityStart_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_SslCertInfo_validityEnd_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
@@ -3549,8 +3548,8 @@ extern void _wrap_SslCertInfo_validityGmt_set_pjsua2_d4108fe45f6933ce(uintptr_t 
 extern _Bool _wrap_SslCertInfo_validityGmt_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_SslCertInfo_subjectAltName_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_SslCertInfo_subjectAltName_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_SslCertInfo_raw_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_528 arg2);
-extern swig_type_529 _wrap_SslCertInfo_raw_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_SslCertInfo_raw_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_529 arg2);
+extern swig_type_530 _wrap_SslCertInfo_raw_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_new_SslCertInfo_pjsua2_d4108fe45f6933ce(void);
 extern _Bool _wrap_SslCertInfo_isEmpty_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_delete_SslCertInfo_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
@@ -3560,12 +3559,12 @@ extern void _wrap_TlsInfo_protocol_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, s
 extern swig_intgo _wrap_TlsInfo_protocol_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_TlsInfo_cipher_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_TlsInfo_cipher_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_TlsInfo_cipherName_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_530 arg2);
-extern swig_type_531 _wrap_TlsInfo_cipherName_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_TlsInfo_localAddr_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_532 arg2);
-extern swig_type_533 _wrap_TlsInfo_localAddr_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_TlsInfo_remoteAddr_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_534 arg2);
-extern swig_type_535 _wrap_TlsInfo_remoteAddr_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_TlsInfo_cipherName_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_531 arg2);
+extern swig_type_532 _wrap_TlsInfo_cipherName_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_TlsInfo_localAddr_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_533 arg2);
+extern swig_type_534 _wrap_TlsInfo_localAddr_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_TlsInfo_remoteAddr_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_535 arg2);
+extern swig_type_536 _wrap_TlsInfo_remoteAddr_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_TlsInfo_localCertInfo_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_TlsInfo_localCertInfo_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_TlsInfo_remoteCertInfo_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
@@ -3579,8 +3578,8 @@ extern _Bool _wrap_TlsInfo_isEmpty_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_delete_TlsInfo_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_OnTransportStateParam_hnd_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_OnTransportStateParam_hnd_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_OnTransportStateParam_Xtype_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_536 arg2);
-extern swig_type_537 _wrap_OnTransportStateParam_Xtype_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_OnTransportStateParam_Xtype_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_537 arg2);
+extern swig_type_538 _wrap_OnTransportStateParam_Xtype_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_OnTransportStateParam_state_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_OnTransportStateParam_state_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_OnTransportStateParam_lastError_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
@@ -3635,8 +3634,8 @@ extern void _wrap_UaConfig_nameserver_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1
 extern uintptr_t _wrap_UaConfig_nameserver_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_UaConfig_outboundProxies_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_UaConfig_outboundProxies_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_UaConfig_userAgent_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_538 arg2);
-extern swig_type_539 _wrap_UaConfig_userAgent_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_UaConfig_userAgent_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_539 arg2);
+extern swig_type_540 _wrap_UaConfig_userAgent_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_UaConfig_stunServer_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern uintptr_t _wrap_UaConfig_stunServer_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_UaConfig_stunTryIpv6_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, _Bool arg2);
@@ -3653,12 +3652,12 @@ extern void _wrap_UaConfig_writeObject_pjsua2_d4108fe45f6933ce(uintptr_t arg1, u
 extern void _wrap_delete_UaConfig_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_LogEntry_level_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_LogEntry_level_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_LogEntry_msg_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_540 arg2);
-extern swig_type_541 _wrap_LogEntry_msg_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_LogEntry_threadId_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_542 arg2);
-extern swig_type_543 _wrap_LogEntry_threadId_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_LogEntry_threadName_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_544 arg2);
-extern swig_type_545 _wrap_LogEntry_threadName_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_LogEntry_msg_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_541 arg2);
+extern swig_type_542 _wrap_LogEntry_msg_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_LogEntry_threadId_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_543 arg2);
+extern swig_type_544 _wrap_LogEntry_threadId_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_LogEntry_threadName_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_545 arg2);
+extern swig_type_546 _wrap_LogEntry_threadName_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_new_LogEntry_pjsua2_d4108fe45f6933ce(void);
 extern void _wrap_delete_LogEntry_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap__swig_NewDirectorLogWriterLogWriter_pjsua2_d4108fe45f6933ce(int);
@@ -3673,8 +3672,8 @@ extern void _wrap_LogConfig_consoleLevel_set_pjsua2_d4108fe45f6933ce(uintptr_t a
 extern swig_intgo _wrap_LogConfig_consoleLevel_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_LogConfig_decor_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_LogConfig_decor_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_LogConfig_filename_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_546 arg2);
-extern swig_type_547 _wrap_LogConfig_filename_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
+extern void _wrap_LogConfig_filename_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_547 arg2);
+extern swig_type_548 _wrap_LogConfig_filename_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_LogConfig_fileFlags_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern swig_intgo _wrap_LogConfig_fileFlags_get_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_LogConfig_writer_set_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
@@ -3762,17 +3761,17 @@ extern void _wrap_Endpoint_libCreate_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern swig_intgo _wrap_Endpoint_libGetState_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_Endpoint_libInit_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern void _wrap_Endpoint_libStart_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_Endpoint_libRegisterThread_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_548 arg2);
+extern void _wrap_Endpoint_libRegisterThread_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_549 arg2);
 extern _Bool _wrap_Endpoint_libIsThreadRegistered_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_Endpoint_libStopWorkerThreads_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern swig_intgo _wrap_Endpoint_libHandleEvents_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern void _wrap_Endpoint_libDestroy__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
 extern void _wrap_Endpoint_libDestroy__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern swig_type_549 _wrap_Endpoint_utilStrError_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
-extern void _wrap_Endpoint_utilLogWrite__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2, swig_type_550 arg3, swig_type_551 arg4);
+extern swig_type_550 _wrap_Endpoint_utilStrError_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2);
+extern void _wrap_Endpoint_utilLogWrite__SWIG_0_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2, swig_type_551 arg3, swig_type_552 arg4);
 extern void _wrap_Endpoint_utilLogWrite__SWIG_1_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
-extern swig_intgo _wrap_Endpoint_utilVerifySipUri_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_552 arg2);
-extern swig_intgo _wrap_Endpoint_utilVerifyUri_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_553 arg2);
+extern swig_intgo _wrap_Endpoint_utilVerifySipUri_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_553 arg2);
+extern swig_intgo _wrap_Endpoint_utilVerifyUri_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_554 arg2);
 extern uintptr_t _wrap_Endpoint_utilTimerSchedule_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_intgo arg2, uintptr_t arg3);
 extern void _wrap_Endpoint_utilTimerCancel_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern void _wrap_Endpoint_utilAddPendingJob_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
@@ -3800,14 +3799,14 @@ extern uintptr_t _wrap_Endpoint_mediaEnumVidPorts_pjsua2_d4108fe45f6933ce(uintpt
 extern uintptr_t _wrap_Endpoint_audDevManager_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_Endpoint_vidDevManager_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern uintptr_t _wrap_Endpoint_codecEnum2_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_Endpoint_codecSetPriority_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_554 arg2, char arg3);
-extern uintptr_t _wrap_Endpoint_codecGetParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_555 arg2);
-extern void _wrap_Endpoint_codecSetParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_556 arg2, uintptr_t arg3);
+extern void _wrap_Endpoint_codecSetPriority_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_555 arg2, char arg3);
+extern uintptr_t _wrap_Endpoint_codecGetParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_556 arg2);
+extern void _wrap_Endpoint_codecSetParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_557 arg2, uintptr_t arg3);
 extern uintptr_t _wrap_Endpoint_videoCodecEnum2_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
-extern void _wrap_Endpoint_videoCodecSetPriority_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_557 arg2, char arg3);
-extern uintptr_t _wrap_Endpoint_getVideoCodecParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_558 arg2);
-extern void _wrap_Endpoint_setVideoCodecParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_559 arg2, uintptr_t arg3);
-extern void _wrap_Endpoint_resetVideoCodecParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_560 arg2);
+extern void _wrap_Endpoint_videoCodecSetPriority_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_558 arg2, char arg3);
+extern uintptr_t _wrap_Endpoint_getVideoCodecParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_559 arg2);
+extern void _wrap_Endpoint_setVideoCodecParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_560 arg2, uintptr_t arg3);
+extern void _wrap_Endpoint_resetVideoCodecParam_pjsua2_d4108fe45f6933ce(uintptr_t arg1, swig_type_561 arg2);
 extern uintptr_t _wrap_Endpoint_srtpCryptoEnum_pjsua2_d4108fe45f6933ce(uintptr_t arg1);
 extern void _wrap_Endpoint_handleIpChange_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
 extern void _wrap_Endpoint_onNatDetectionComplete_pjsua2_d4108fe45f6933ce(uintptr_t arg1, uintptr_t arg2);
@@ -8142,7 +8141,7 @@ func (arg1 SwigcptrStringVector) Get(arg2 int) (_swig_ret string) {
 	swig_r_p := C._wrap_StringVector_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8343,7 +8342,7 @@ func (arg1 SwigcptrError) GetTitle() (_swig_ret string) {
 	swig_r_p := C._wrap_Error_title_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8362,7 +8361,7 @@ func (arg1 SwigcptrError) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_Error_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8381,7 +8380,7 @@ func (arg1 SwigcptrError) GetSrcFile() (_swig_ret string) {
 	swig_r_p := C._wrap_Error_srcFile_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8405,7 +8404,7 @@ func (arg1 SwigcptrError) Info__SWIG_0(arg2 bool) (_swig_ret string) {
 	swig_r_p := C._wrap_Error_info__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C._Bool(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8415,7 +8414,7 @@ func (arg1 SwigcptrError) Info__SWIG_1() (_swig_ret string) {
 	swig_r_p := C._wrap_Error_info__SWIG_1_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8551,7 +8550,7 @@ func (arg1 SwigcptrVersion) GetSuffix() (_swig_ret string) {
 	swig_r_p := C._wrap_Version_suffix_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8570,7 +8569,7 @@ func (arg1 SwigcptrVersion) GetFull() (_swig_ret string) {
 	swig_r_p := C._wrap_Version_full_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8750,7 +8749,7 @@ func (arg1 SwigcptrPersistentDocument) SaveString() (_swig_ret string) {
 	swig_r_p := C._wrap_PersistentDocument_saveString_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8774,7 +8773,7 @@ func (arg1 SwigcptrPersistentDocument) UnreadName() (_swig_ret string) {
 	swig_r_p := C._wrap_PersistentDocument_unreadName_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8875,7 +8874,7 @@ func (arg1 SwigcptrPersistentDocument) ReadString__SWIG_0(arg2 string) (_swig_re
 		Swig_escape_val = arg2
 	}
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -8885,7 +8884,7 @@ func (arg1 SwigcptrPersistentDocument) ReadString__SWIG_1() (_swig_ret string) {
 	swig_r_p := C._wrap_PersistentDocument_readString__SWIG_1_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9124,7 +9123,7 @@ func (arg1 SwigcptrContainerNode) UnreadName() (_swig_ret string) {
 	swig_r_p := C._wrap_ContainerNode_unreadName_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9225,7 +9224,7 @@ func (arg1 SwigcptrContainerNode) ReadString__SWIG_0(arg2 string) (_swig_ret str
 		Swig_escape_val = arg2
 	}
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9235,7 +9234,7 @@ func (arg1 SwigcptrContainerNode) ReadString__SWIG_1() (_swig_ret string) {
 	swig_r_p := C._wrap_ContainerNode_readString__SWIG_1_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9482,7 +9481,7 @@ func (arg1 SwigcptrAuthCredInfo) GetScheme() (_swig_ret string) {
 	swig_r_p := C._wrap_AuthCredInfo_scheme_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9501,7 +9500,7 @@ func (arg1 SwigcptrAuthCredInfo) GetRealm() (_swig_ret string) {
 	swig_r_p := C._wrap_AuthCredInfo_realm_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9520,7 +9519,7 @@ func (arg1 SwigcptrAuthCredInfo) GetUsername() (_swig_ret string) {
 	swig_r_p := C._wrap_AuthCredInfo_username_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9552,7 +9551,7 @@ func (arg1 SwigcptrAuthCredInfo) GetData() (_swig_ret string) {
 	swig_r_p := C._wrap_AuthCredInfo_data_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9571,7 +9570,7 @@ func (arg1 SwigcptrAuthCredInfo) GetAkaK() (_swig_ret string) {
 	swig_r_p := C._wrap_AuthCredInfo_akaK_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9590,7 +9589,7 @@ func (arg1 SwigcptrAuthCredInfo) GetAkaOp() (_swig_ret string) {
 	swig_r_p := C._wrap_AuthCredInfo_akaOp_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9609,7 +9608,7 @@ func (arg1 SwigcptrAuthCredInfo) GetAkaAmf() (_swig_ret string) {
 	swig_r_p := C._wrap_AuthCredInfo_akaAmf_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9726,7 +9725,7 @@ func (arg1 SwigcptrTlsConfig) GetCaListFile() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsConfig_CaListFile_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9745,7 +9744,7 @@ func (arg1 SwigcptrTlsConfig) GetCertFile() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsConfig_certFile_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9764,7 +9763,7 @@ func (arg1 SwigcptrTlsConfig) GetPrivKeyFile() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsConfig_privKeyFile_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9783,7 +9782,7 @@ func (arg1 SwigcptrTlsConfig) GetPassword() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsConfig_password_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9802,7 +9801,7 @@ func (arg1 SwigcptrTlsConfig) GetCaBuf() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsConfig_CaBuf_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9821,7 +9820,7 @@ func (arg1 SwigcptrTlsConfig) GetCertBuf() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsConfig_certBuf_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -9840,7 +9839,7 @@ func (arg1 SwigcptrTlsConfig) GetPrivKeyBuf() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsConfig_privKeyBuf_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10097,7 +10096,7 @@ func (arg1 SwigcptrTransportConfig) GetPublicAddress() (_swig_ret string) {
 	swig_r_p := C._wrap_TransportConfig_publicAddress_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10116,7 +10115,7 @@ func (arg1 SwigcptrTransportConfig) GetBoundAddress() (_swig_ret string) {
 	swig_r_p := C._wrap_TransportConfig_boundAddress_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10262,7 +10261,7 @@ func (arg1 SwigcptrTransportInfo) GetTypeName() (_swig_ret string) {
 	swig_r_p := C._wrap_TransportInfo_typeName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10281,7 +10280,7 @@ func (arg1 SwigcptrTransportInfo) GetInfo() (_swig_ret string) {
 	swig_r_p := C._wrap_TransportInfo_info_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10313,7 +10312,7 @@ func (arg1 SwigcptrTransportInfo) GetLocalAddress() (_swig_ret string) {
 	swig_r_p := C._wrap_TransportInfo_localAddress_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10332,7 +10331,7 @@ func (arg1 SwigcptrTransportInfo) GetLocalName() (_swig_ret string) {
 	swig_r_p := C._wrap_TransportInfo_localName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10405,7 +10404,7 @@ func (arg1 SwigcptrSipRxData) GetInfo() (_swig_ret string) {
 	swig_r_p := C._wrap_SipRxData_info_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10424,7 +10423,7 @@ func (arg1 SwigcptrSipRxData) GetWholeMsg() (_swig_ret string) {
 	swig_r_p := C._wrap_SipRxData_wholeMsg_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10443,7 +10442,7 @@ func (arg1 SwigcptrSipRxData) GetSrcAddress() (_swig_ret string) {
 	swig_r_p := C._wrap_SipRxData_srcAddress_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10508,7 +10507,7 @@ func (arg1 SwigcptrSipTxData) GetInfo() (_swig_ret string) {
 	swig_r_p := C._wrap_SipTxData_info_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10527,7 +10526,7 @@ func (arg1 SwigcptrSipTxData) GetWholeMsg() (_swig_ret string) {
 	swig_r_p := C._wrap_SipTxData_wholeMsg_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10546,7 +10545,7 @@ func (arg1 SwigcptrSipTxData) GetDstAddress() (_swig_ret string) {
 	swig_r_p := C._wrap_SipTxData_dstAddress_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10624,7 +10623,7 @@ func (arg1 SwigcptrSipTransaction) GetMethod() (_swig_ret string) {
 	swig_r_p := C._wrap_SipTransaction_method_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -10656,7 +10655,7 @@ func (arg1 SwigcptrSipTransaction) GetStatusText() (_swig_ret string) {
 	swig_r_p := C._wrap_SipTransaction_statusText_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11383,7 +11382,7 @@ func (arg1 SwigcptrSipMediaType) GetXtype() (_swig_ret string) {
 	swig_r_p := C._wrap_SipMediaType_Xtype_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11402,7 +11401,7 @@ func (arg1 SwigcptrSipMediaType) GetSubType() (_swig_ret string) {
 	swig_r_p := C._wrap_SipMediaType_subType_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11450,7 +11449,7 @@ func (arg1 SwigcptrSipHeader) GetHName() (_swig_ret string) {
 	swig_r_p := C._wrap_SipHeader_hName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11469,7 +11468,7 @@ func (arg1 SwigcptrSipHeader) GetHValue() (_swig_ret string) {
 	swig_r_p := C._wrap_SipHeader_hValue_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11543,7 +11542,7 @@ func (arg1 SwigcptrSipMultipartPart) GetBody() (_swig_ret string) {
 	swig_r_p := C._wrap_SipMultipartPart_body_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11593,7 +11592,7 @@ func (arg1 SwigcptrSipTxOption) GetTargetUri() (_swig_ret string) {
 	swig_r_p := C._wrap_SipTxOption_targetUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11625,7 +11624,7 @@ func (arg1 SwigcptrSipTxOption) GetContentType() (_swig_ret string) {
 	swig_r_p := C._wrap_SipTxOption_contentType_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11644,7 +11643,7 @@ func (arg1 SwigcptrSipTxOption) GetMsgBody() (_swig_ret string) {
 	swig_r_p := C._wrap_SipTxOption_msgBody_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11734,7 +11733,7 @@ func (arg1 SwigcptrSendInstantMessageParam) GetContentType() (_swig_ret string) 
 	swig_r_p := C._wrap_SendInstantMessageParam_contentType_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -11753,7 +11752,7 @@ func (arg1 SwigcptrSendInstantMessageParam) GetContent() (_swig_ret string) {
 	swig_r_p := C._wrap_SendInstantMessageParam_content_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -15086,7 +15085,7 @@ func (arg1 SwigcptrConfPortInfo) GetName() (_swig_ret string) {
 	swig_r_p := C._wrap_ConfPortInfo_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -16158,7 +16157,7 @@ func (arg1 SwigcptrToneDigitMapDigit) GetDigit() (_swig_ret string) {
 	swig_r_p := C._wrap_ToneDigitMapDigit_digit_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -16482,7 +16481,7 @@ func (arg1 SwigcptrAudioDevInfo) GetName() (_swig_ret string) {
 	swig_r_p := C._wrap_AudioDevInfo_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -16540,7 +16539,7 @@ func (arg1 SwigcptrAudioDevInfo) GetDriver() (_swig_ret string) {
 	swig_r_p := C._wrap_AudioDevInfo_driver_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -16752,7 +16751,7 @@ func (arg1 SwigcptrAudDevManager) CapName(arg2 Pjmedia_aud_dev_cap) (_swig_ret s
 	swig_r_p := C._wrap_AudDevManager_capName_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -17437,7 +17436,7 @@ func (arg1 SwigcptrVidConfPortInfo) GetName() (_swig_ret string) {
 	swig_r_p := C._wrap_VidConfPortInfo_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -18096,7 +18095,7 @@ func (arg1 SwigcptrVideoDevInfo) GetName() (_swig_ret string) {
 	swig_r_p := C._wrap_VideoDevInfo_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -18115,7 +18114,7 @@ func (arg1 SwigcptrVideoDevInfo) GetDriver() (_swig_ret string) {
 	swig_r_p := C._wrap_VideoDevInfo_driver_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -18284,7 +18283,7 @@ func (arg1 SwigcptrVidDevManager) CapName(arg2 Pjmedia_vid_dev_cap) (_swig_ret s
 	swig_r_p := C._wrap_VidDevManager_capName_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -18423,7 +18422,7 @@ func (arg1 SwigcptrCodecInfo) GetCodecId() (_swig_ret string) {
 	swig_r_p := C._wrap_CodecInfo_codecId_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -18455,7 +18454,7 @@ func (arg1 SwigcptrCodecInfo) GetDesc() (_swig_ret string) {
 	swig_r_p := C._wrap_CodecInfo_desc_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -18505,7 +18504,7 @@ func (arg1 SwigcptrCodecFmtp) GetName() (_swig_ret string) {
 	swig_r_p := C._wrap_CodecFmtp_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -18524,7 +18523,7 @@ func (arg1 SwigcptrCodecFmtp) GetVal() (_swig_ret string) {
 	swig_r_p := C._wrap_CodecFmtp_val_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -19485,7 +19484,7 @@ func (arg1 SwigcptrPresenceStatus) GetStatusText() (_swig_ret string) {
 	swig_r_p := C._wrap_PresenceStatus_statusText_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -19517,7 +19516,7 @@ func (arg1 SwigcptrPresenceStatus) GetNote() (_swig_ret string) {
 	swig_r_p := C._wrap_PresenceStatus_note_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -19536,7 +19535,7 @@ func (arg1 SwigcptrPresenceStatus) GetRpidId() (_swig_ret string) {
 	swig_r_p := C._wrap_PresenceStatus_rpidId_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -19590,7 +19589,7 @@ func (arg1 SwigcptrBuddyConfig) GetUri() (_swig_ret string) {
 	swig_r_p := C._wrap_BuddyConfig_uri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -19674,7 +19673,7 @@ func (arg1 SwigcptrBuddyInfo) GetUri() (_swig_ret string) {
 	swig_r_p := C._wrap_BuddyInfo_uri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -19693,7 +19692,7 @@ func (arg1 SwigcptrBuddyInfo) GetContact() (_swig_ret string) {
 	swig_r_p := C._wrap_BuddyInfo_contact_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -19738,7 +19737,7 @@ func (arg1 SwigcptrBuddyInfo) GetSubStateName() (_swig_ret string) {
 	swig_r_p := C._wrap_BuddyInfo_subStateName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -19770,7 +19769,7 @@ func (arg1 SwigcptrBuddyInfo) GetSubTermReason() (_swig_ret string) {
 	swig_r_p := C._wrap_BuddyInfo_subTermReason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20056,7 +20055,7 @@ func (arg1 SwigcptrAccountRegConfig) GetRegistrarUri() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountRegConfig_registrarUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20101,7 +20100,7 @@ func (arg1 SwigcptrAccountRegConfig) GetContactParams() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountRegConfig_contactParams_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20322,7 +20321,7 @@ func (arg1 SwigcptrAccountSipConfig) GetContactForced() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountSipConfig_contactForced_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20341,7 +20340,7 @@ func (arg1 SwigcptrAccountSipConfig) GetContactParams() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountSipConfig_contactParams_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20360,7 +20359,7 @@ func (arg1 SwigcptrAccountSipConfig) GetContactUriParams() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountSipConfig_contactUriParams_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20392,7 +20391,7 @@ func (arg1 SwigcptrAccountSipConfig) GetAuthInitialAlgorithm() (_swig_ret string
 	swig_r_p := C._wrap_AccountSipConfig_authInitialAlgorithm_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20663,7 +20662,7 @@ func (arg1 SwigcptrAccountPresConfig) GetPidfTupleId() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountPresConfig_pidfTupleId_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20961,7 +20960,7 @@ func (arg1 SwigcptrAccountNatConfig) GetTurnServer() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountNatConfig_turnServer_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -20993,7 +20992,7 @@ func (arg1 SwigcptrAccountNatConfig) GetTurnUserName() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountNatConfig_turnUserName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21025,7 +21024,7 @@ func (arg1 SwigcptrAccountNatConfig) GetTurnPassword() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountNatConfig_turnPassword_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21122,7 +21121,7 @@ func (arg1 SwigcptrAccountNatConfig) GetSipOutboundInstanceId() (_swig_ret strin
 	swig_r_p := C._wrap_AccountNatConfig_sipOutboundInstanceId_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21141,7 +21140,7 @@ func (arg1 SwigcptrAccountNatConfig) GetSipOutboundRegId() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountNatConfig_sipOutboundRegId_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21173,7 +21172,7 @@ func (arg1 SwigcptrAccountNatConfig) GetUdpKaData() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountNatConfig_udpKaData_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21292,7 +21291,7 @@ func (arg1 SwigcptrSrtpCrypto) GetKey() (_swig_ret string) {
 	swig_r_p := C._wrap_SrtpCrypto_key_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21311,7 +21310,7 @@ func (arg1 SwigcptrSrtpCrypto) GetName() (_swig_ret string) {
 	swig_r_p := C._wrap_SrtpCrypto_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21452,7 +21451,7 @@ func (arg1 SwigcptrRtcpFbCap) GetCodecId() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpFbCap_codecId_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21484,7 +21483,7 @@ func (arg1 SwigcptrRtcpFbCap) GetTypeName() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpFbCap_typeName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -21503,7 +21502,7 @@ func (arg1 SwigcptrRtcpFbCap) GetParam() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpFbCap_param_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22096,7 +22095,7 @@ func (arg1 SwigcptrAccountConfig) GetIdUri() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountConfig_idUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22328,7 +22327,7 @@ func (arg1 SwigcptrAccountInfo) GetUri() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountInfo_uri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22399,7 +22398,7 @@ func (arg1 SwigcptrAccountInfo) GetRegStatusText() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountInfo_regStatusText_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22444,7 +22443,7 @@ func (arg1 SwigcptrAccountInfo) GetOnlineStatusText() (_swig_ret string) {
 	swig_r_p := C._wrap_AccountInfo_onlineStatusText_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22631,7 +22630,7 @@ func (arg1 SwigcptrOnRegStateParam) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_OnRegStateParam_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22724,7 +22723,7 @@ func (arg1 SwigcptrOnIncomingSubscribeParam) GetFromUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnIncomingSubscribeParam_fromUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22769,7 +22768,7 @@ func (arg1 SwigcptrOnIncomingSubscribeParam) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_OnIncomingSubscribeParam_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22838,7 +22837,7 @@ func (arg1 SwigcptrOnInstantMessageParam) GetFromUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnInstantMessageParam_fromUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22857,7 +22856,7 @@ func (arg1 SwigcptrOnInstantMessageParam) GetToUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnInstantMessageParam_toUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22876,7 +22875,7 @@ func (arg1 SwigcptrOnInstantMessageParam) GetContactUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnInstantMessageParam_contactUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22895,7 +22894,7 @@ func (arg1 SwigcptrOnInstantMessageParam) GetContentType() (_swig_ret string) {
 	swig_r_p := C._wrap_OnInstantMessageParam_contentType_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22914,7 +22913,7 @@ func (arg1 SwigcptrOnInstantMessageParam) GetMsgBody() (_swig_ret string) {
 	swig_r_p := C._wrap_OnInstantMessageParam_msgBody_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -22996,7 +22995,7 @@ func (arg1 SwigcptrOnInstantMessageStatusParam) GetToUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnInstantMessageStatusParam_toUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -23015,7 +23014,7 @@ func (arg1 SwigcptrOnInstantMessageStatusParam) GetMsgBody() (_swig_ret string) 
 	swig_r_p := C._wrap_OnInstantMessageStatusParam_msgBody_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -23047,7 +23046,7 @@ func (arg1 SwigcptrOnInstantMessageStatusParam) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_OnInstantMessageStatusParam_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -23116,7 +23115,7 @@ func (arg1 SwigcptrOnTypingIndicationParam) GetFromUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnTypingIndicationParam_fromUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -23135,7 +23134,7 @@ func (arg1 SwigcptrOnTypingIndicationParam) GetToUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnTypingIndicationParam_toUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -23154,7 +23153,7 @@ func (arg1 SwigcptrOnTypingIndicationParam) GetContactUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnTypingIndicationParam_contactUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -23315,7 +23314,7 @@ func (arg1 SwigcptrPresNotifyParam) GetStateStr() (_swig_ret string) {
 	swig_r_p := C._wrap_PresNotifyParam_stateStr_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -23334,7 +23333,7 @@ func (arg1 SwigcptrPresNotifyParam) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_PresNotifyParam_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -23448,7 +23447,7 @@ func Swig_DirectorFindBuddyMatch_callback_match_pjsua2_d4108fe45f6933ce(swig_c i
 	var swig_r bool
 	var _swig_i_0 string
 	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorFindBuddyMatch)
- _swig_i_0 = swigCopyString(arg2)
+ _swig_i_0 = swigCopyString(arg2) 
 	swig_r = swig_p.Match(_swig_i_0, SwigcptrBuddy(arg3))
 	return swig_r
 }
@@ -24320,7 +24319,7 @@ func (arg1 SwigcptrRtcpSdes) GetCname() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpSdes_cname_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24339,7 +24338,7 @@ func (arg1 SwigcptrRtcpSdes) GetName() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpSdes_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24358,7 +24357,7 @@ func (arg1 SwigcptrRtcpSdes) GetEmail() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpSdes_email_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24377,7 +24376,7 @@ func (arg1 SwigcptrRtcpSdes) GetPhone() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpSdes_phone_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24396,7 +24395,7 @@ func (arg1 SwigcptrRtcpSdes) GetLoc() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpSdes_loc_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24415,7 +24414,7 @@ func (arg1 SwigcptrRtcpSdes) GetTool() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpSdes_tool_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24434,7 +24433,7 @@ func (arg1 SwigcptrRtcpSdes) GetNote() (_swig_ret string) {
 	swig_r_p := C._wrap_RtcpSdes_note_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24887,7 +24886,7 @@ func (arg1 SwigcptrSdpSession) GetWholeSdp() (_swig_ret string) {
 	swig_r_p := C._wrap_SdpSession_wholeSdp_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24948,7 +24947,7 @@ func (arg1 SwigcptrMediaTransportInfo) GetLocalRtpName() (_swig_ret string) {
 	swig_r_p := C._wrap_MediaTransportInfo_localRtpName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24967,7 +24966,7 @@ func (arg1 SwigcptrMediaTransportInfo) GetLocalRtcpName() (_swig_ret string) {
 	swig_r_p := C._wrap_MediaTransportInfo_localRtcpName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -24986,7 +24985,7 @@ func (arg1 SwigcptrMediaTransportInfo) GetSrcRtpName() (_swig_ret string) {
 	swig_r_p := C._wrap_MediaTransportInfo_srcRtpName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25005,7 +25004,7 @@ func (arg1 SwigcptrMediaTransportInfo) GetSrcRtcpName() (_swig_ret string) {
 	swig_r_p := C._wrap_MediaTransportInfo_srcRtcpName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25352,7 +25351,7 @@ func (arg1 SwigcptrCallInfo) GetLocalUri() (_swig_ret string) {
 	swig_r_p := C._wrap_CallInfo_localUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25371,7 +25370,7 @@ func (arg1 SwigcptrCallInfo) GetLocalContact() (_swig_ret string) {
 	swig_r_p := C._wrap_CallInfo_localContact_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25390,7 +25389,7 @@ func (arg1 SwigcptrCallInfo) GetRemoteUri() (_swig_ret string) {
 	swig_r_p := C._wrap_CallInfo_remoteUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25409,7 +25408,7 @@ func (arg1 SwigcptrCallInfo) GetRemoteContact() (_swig_ret string) {
 	swig_r_p := C._wrap_CallInfo_remoteContact_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25428,7 +25427,7 @@ func (arg1 SwigcptrCallInfo) GetCallIdString() (_swig_ret string) {
 	swig_r_p := C._wrap_CallInfo_callIdString_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25473,7 +25472,7 @@ func (arg1 SwigcptrCallInfo) GetStateText() (_swig_ret string) {
 	swig_r_p := C._wrap_CallInfo_stateText_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25505,7 +25504,7 @@ func (arg1 SwigcptrCallInfo) GetLastReason() (_swig_ret string) {
 	swig_r_p := C._wrap_CallInfo_lastReason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25719,7 +25718,7 @@ func (arg1 SwigcptrStreamInfo) GetRemoteRtpAddress() (_swig_ret string) {
 	swig_r_p := C._wrap_StreamInfo_remoteRtpAddress_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25738,7 +25737,7 @@ func (arg1 SwigcptrStreamInfo) GetRemoteRtcpAddress() (_swig_ret string) {
 	swig_r_p := C._wrap_StreamInfo_remoteRtcpAddress_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -25783,7 +25782,7 @@ func (arg1 SwigcptrStreamInfo) GetCodecName() (_swig_ret string) {
 	swig_r_p := C._wrap_StreamInfo_codecName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -26256,7 +26255,7 @@ func (arg1 SwigcptrOnDtmfDigitParam) GetDigit() (_swig_ret string) {
 	swig_r_p := C._wrap_OnDtmfDigitParam_digit_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -26319,7 +26318,7 @@ func (arg1 SwigcptrOnCallTransferRequestParam) GetDstUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnCallTransferRequestParam_dstUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -26423,7 +26422,7 @@ func (arg1 SwigcptrOnCallTransferStatusParam) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_OnCallTransferStatusParam_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -26527,7 +26526,7 @@ func (arg1 SwigcptrOnCallReplaceRequestParam) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_OnCallReplaceRequestParam_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -26857,7 +26856,7 @@ func (arg1 SwigcptrOnCallRedirectedParam) GetTargetUri() (_swig_ret string) {
 	swig_r_p := C._wrap_OnCallRedirectedParam_targetUri_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -27224,7 +27223,7 @@ func (arg1 SwigcptrCallOpParam) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_CallOpParam_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -27337,7 +27336,7 @@ func (arg1 SwigcptrCallSendRequestParam) GetMethod() (_swig_ret string) {
 	swig_r_p := C._wrap_CallSendRequestParam_method_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -27494,7 +27493,7 @@ func (arg1 SwigcptrCallSendDtmfParam) GetDigits() (_swig_ret string) {
 	swig_r_p := C._wrap_CallSendDtmfParam_digits_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -28360,7 +28359,7 @@ func (arg1 SwigcptrCall) Dump(arg2 bool, arg3 string) (_swig_ret string) {
 		Swig_escape_val = arg3
 	}
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -28986,19 +28985,19 @@ func (arg1 SwigcptrPiAudioFrameBuffer) Tail() (_swig_ret PiAudioFrame) {
 	return swig_r
 }
 
-func (arg1 SwigcptrPiAudioFrameBuffer) Get(arg2 int) (_swig_ret PiAudioFrame) {
+func (arg1 SwigcptrPiAudioFrameBuffer) Get(arg2 int64) (_swig_ret PiAudioFrame) {
 	var swig_r PiAudioFrame
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (PiAudioFrame)(SwigcptrPiAudioFrame(C._wrap_PiAudioFrameBuffer_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (PiAudioFrame)(SwigcptrPiAudioFrame(C._wrap_PiAudioFrameBuffer_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_456(_swig_i_1))))
 	return swig_r
 }
 
-func (arg1 SwigcptrPiAudioFrameBuffer) Back(arg2 int) (_swig_ret PiAudioFrame) {
+func (arg1 SwigcptrPiAudioFrameBuffer) Back(arg2 int64) (_swig_ret PiAudioFrame) {
 	var swig_r PiAudioFrame
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (PiAudioFrame)(SwigcptrPiAudioFrame(C._wrap_PiAudioFrameBuffer_back_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))))
+	swig_r = (PiAudioFrame)(SwigcptrPiAudioFrame(C._wrap_PiAudioFrameBuffer_back_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_457(_swig_i_1))))
 	return swig_r
 }
 
@@ -29012,8 +29011,8 @@ type PiAudioFrameBuffer interface {
 	Push(arg2 uint, arg3 Pjmedia_frame, arg4 uint64) (_swig_ret int)
 	Head() (_swig_ret PiAudioFrame)
 	Tail() (_swig_ret PiAudioFrame)
-	Get(arg2 int) (_swig_ret PiAudioFrame)
-	Back(arg2 int) (_swig_ret PiAudioFrame)
+	Get(arg2 int64) (_swig_ret PiAudioFrame)
+	Back(arg2 int64) (_swig_ret PiAudioFrame)
 }
 
 type SwigcptrPiEncoderStats uintptr
@@ -29028,7 +29027,7 @@ func (p SwigcptrPiEncoderStats) SwigIsPiEncoderStats() {
 func (arg1 SwigcptrPiEncoderStats) SetFrameCount(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_frameCount_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_456(_swig_i_1))
+	C._wrap_PiEncoderStats_frameCount_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_458(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetFrameCount() (_swig_ret uint64) {
@@ -29041,7 +29040,7 @@ func (arg1 SwigcptrPiEncoderStats) GetFrameCount() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetDtxFramesSkipped(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_dtxFramesSkipped_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_458(_swig_i_1))
+	C._wrap_PiEncoderStats_dtxFramesSkipped_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_460(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetDtxFramesSkipped() (_swig_ret uint64) {
@@ -29054,7 +29053,7 @@ func (arg1 SwigcptrPiEncoderStats) GetDtxFramesSkipped() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetDtxFramesMissed(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_dtxFramesMissed_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_460(_swig_i_1))
+	C._wrap_PiEncoderStats_dtxFramesMissed_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_462(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetDtxFramesMissed() (_swig_ret uint64) {
@@ -29067,7 +29066,7 @@ func (arg1 SwigcptrPiEncoderStats) GetDtxFramesMissed() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetTotalVadCpu(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_totalVadCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_462(_swig_i_1))
+	C._wrap_PiEncoderStats_totalVadCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_464(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetTotalVadCpu() (_swig_ret uint64) {
@@ -29080,7 +29079,7 @@ func (arg1 SwigcptrPiEncoderStats) GetTotalVadCpu() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetTotalOpusCpu(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_totalOpusCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_464(_swig_i_1))
+	C._wrap_PiEncoderStats_totalOpusCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_466(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetTotalOpusCpu() (_swig_ret uint64) {
@@ -29093,7 +29092,7 @@ func (arg1 SwigcptrPiEncoderStats) GetTotalOpusCpu() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetTotalExternCpu(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_totalExternCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_466(_swig_i_1))
+	C._wrap_PiEncoderStats_totalExternCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_468(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetTotalExternCpu() (_swig_ret uint64) {
@@ -29106,7 +29105,7 @@ func (arg1 SwigcptrPiEncoderStats) GetTotalExternCpu() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetLastExternCpu(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_lastExternCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_468(_swig_i_1))
+	C._wrap_PiEncoderStats_lastExternCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_470(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetLastExternCpu() (_swig_ret uint64) {
@@ -29119,7 +29118,7 @@ func (arg1 SwigcptrPiEncoderStats) GetLastExternCpu() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetHeartbeatCount(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_heartbeatCount_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_470(_swig_i_1))
+	C._wrap_PiEncoderStats_heartbeatCount_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_472(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetHeartbeatCount() (_swig_ret uint64) {
@@ -29132,7 +29131,7 @@ func (arg1 SwigcptrPiEncoderStats) GetHeartbeatCount() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetTotalHeartbeatCpu(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_totalHeartbeatCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_472(_swig_i_1))
+	C._wrap_PiEncoderStats_totalHeartbeatCpu_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_474(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetTotalHeartbeatCpu() (_swig_ret uint64) {
@@ -29145,7 +29144,7 @@ func (arg1 SwigcptrPiEncoderStats) GetTotalHeartbeatCpu() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetTotalEnqueueNanos(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_totalEnqueueNanos_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_474(_swig_i_1))
+	C._wrap_PiEncoderStats_totalEnqueueNanos_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_476(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetTotalEnqueueNanos() (_swig_ret uint64) {
@@ -29158,7 +29157,7 @@ func (arg1 SwigcptrPiEncoderStats) GetTotalEnqueueNanos() (_swig_ret uint64) {
 func (arg1 SwigcptrPiEncoderStats) SetTotalEncoderWaitNanos(arg2 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_PiEncoderStats_totalEncoderWaitNanos_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_476(_swig_i_1))
+	C._wrap_PiEncoderStats_totalEncoderWaitNanos_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_478(_swig_i_1))
 }
 
 func (arg1 SwigcptrPiEncoderStats) GetTotalEncoderWaitNanos() (_swig_ret uint64) {
@@ -29285,32 +29284,6 @@ func Swig_DirectorPiRecorder_callback_onError_pjsua2_d4108fe45f6933ce(swig_c int
 	swig_p.OnError(SwigcptrError(arg2))
 }
 
-type _swig_DirectorInterfacePiRecorderOnFrameDTX interface {
-	OnFrameDTX(uintptr, uint64)
-}
-
-func (swig_p *_swig_DirectorPiRecorder) OnFrameDTX(frame uintptr, prevExternCPU uint64) {
-	if swig_g, swig_ok := swig_p.v.(_swig_DirectorInterfacePiRecorderOnFrameDTX); swig_ok {
-		swig_g.OnFrameDTX(frame, prevExternCPU)
-		return
-	}
-	_swig_i_0 := frame
-	_swig_i_1 := prevExternCPU
-	C._wrap__swig_DirectorPiRecorder_upcall_OnFrameDTX_pjsua2_d4108fe45f6933ce(C.uintptr_t(swig_p.SwigcptrPiRecorder), C.uintptr_t(_swig_i_0), C.swig_type_478(_swig_i_1))
-}
-
-func DirectorPiRecorderOnFrameDTX(p PiRecorder, arg2 uintptr, arg3 uint64) {
-	_swig_i_0 := arg2
-	_swig_i_1 := arg3
-	C._wrap__swig_DirectorPiRecorder_upcall_OnFrameDTX_pjsua2_d4108fe45f6933ce(C.uintptr_t(p.(*_swig_DirectorPiRecorder).SwigcptrPiRecorder), C.uintptr_t(_swig_i_0), C.swig_type_478(_swig_i_1))
-}
-
-//export Swig_DirectorPiRecorder_callback_onFrameDTX_pjsua2_d4108fe45f6933ce
-func Swig_DirectorPiRecorder_callback_onFrameDTX_pjsua2_d4108fe45f6933ce(swig_c int, arg2 uintptr, arg3 uint64) {
-	swig_p := swigDirectorLookup(swig_c).(*_swig_DirectorPiRecorder)
-	swig_p.OnFrameDTX(arg2, arg3)
-}
-
 type _swig_DirectorInterfacePiRecorderOnFrame interface {
 	OnFrame(uintptr, uint64)
 }
@@ -29322,13 +29295,13 @@ func (swig_p *_swig_DirectorPiRecorder) OnFrame(frame uintptr, prevExternCPU uin
 	}
 	_swig_i_0 := frame
 	_swig_i_1 := prevExternCPU
-	C._wrap__swig_DirectorPiRecorder_upcall_OnFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(swig_p.SwigcptrPiRecorder), C.uintptr_t(_swig_i_0), C.swig_type_479(_swig_i_1))
+	C._wrap__swig_DirectorPiRecorder_upcall_OnFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(swig_p.SwigcptrPiRecorder), C.uintptr_t(_swig_i_0), C.swig_type_480(_swig_i_1))
 }
 
 func DirectorPiRecorderOnFrame(p PiRecorder, arg2 uintptr, arg3 uint64) {
 	_swig_i_0 := arg2
 	_swig_i_1 := arg3
-	C._wrap__swig_DirectorPiRecorder_upcall_OnFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(p.(*_swig_DirectorPiRecorder).SwigcptrPiRecorder), C.uintptr_t(_swig_i_0), C.swig_type_479(_swig_i_1))
+	C._wrap__swig_DirectorPiRecorder_upcall_OnFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(p.(*_swig_DirectorPiRecorder).SwigcptrPiRecorder), C.uintptr_t(_swig_i_0), C.swig_type_480(_swig_i_1))
 }
 
 //export Swig_DirectorPiRecorder_callback_onFrame_pjsua2_d4108fe45f6933ce
@@ -29540,18 +29513,11 @@ func (arg1 SwigcptrPiRecorder) OnError(arg2 Error) {
 	C._wrap_PiRecorder_onError_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1))
 }
 
-func (arg1 SwigcptrPiRecorder) OnFrameDTX(arg2 uintptr, arg3 uint64) {
-	_swig_i_0 := arg1
-	_swig_i_1 := arg2
-	_swig_i_2 := arg3
-	C._wrap_PiRecorder_onFrameDTX_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_478(_swig_i_2))
-}
-
 func (arg1 SwigcptrPiRecorder) OnFrame(arg2 uintptr, arg3 uint64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_PiRecorder_onFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_479(_swig_i_2))
+	C._wrap_PiRecorder_onFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_480(_swig_i_2))
 }
 
 func (arg1 SwigcptrPiRecorder) OnDestroy() {
@@ -29681,7 +29647,6 @@ type PiRecorder interface {
 	GetLastExternCpu() (_swig_ret uint64)
 	OnHeartbeat()
 	OnError(arg2 Error)
-	OnFrameDTX(arg2 uintptr, arg3 uint64)
 	OnFrame(arg2 uintptr, arg3 uint64)
 	OnDestroy()
 	GetPortInfo() (_swig_ret ConfPortInfo)
@@ -29747,7 +29712,7 @@ func (swig_p *_swig_DirectorPiPort) OnPutFrame(frameType Pjmedia_frame_type, pcm
 	_swig_i_2 := size
 	_swig_i_3 := timestamp
 	_swig_i_4 := bit_info
-	C._wrap__swig_DirectorPiPort_upcall_OnPutFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(swig_p.SwigcptrPiPort), C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_484(_swig_i_2), C.swig_type_485(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap__swig_DirectorPiPort_upcall_OnPutFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(swig_p.SwigcptrPiPort), C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_485(_swig_i_2), C.swig_type_486(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
 func DirectorPiPortOnPutFrame(p PiPort, arg2 Pjmedia_frame_type, arg3 uintptr, arg4 int64, arg5 uint64, arg6 uint) {
@@ -29756,7 +29721,7 @@ func DirectorPiPortOnPutFrame(p PiPort, arg2 Pjmedia_frame_type, arg3 uintptr, a
 	_swig_i_2 := arg4
 	_swig_i_3 := arg5
 	_swig_i_4 := arg6
-	C._wrap__swig_DirectorPiPort_upcall_OnPutFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(p.(*_swig_DirectorPiPort).SwigcptrPiPort), C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_484(_swig_i_2), C.swig_type_485(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap__swig_DirectorPiPort_upcall_OnPutFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(p.(*_swig_DirectorPiPort).SwigcptrPiPort), C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_485(_swig_i_2), C.swig_type_486(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
 //export Swig_DirectorPiPort_callback_onPutFrame_pjsua2_d4108fe45f6933ce
@@ -29779,7 +29744,7 @@ func (swig_p *_swig_DirectorPiPort) OnGetFrame(frameType Pjmedia_frame_type, pcm
 	_swig_i_2 := size
 	_swig_i_3 := timestamp
 	_swig_i_4 := bit_info
-	C._wrap__swig_DirectorPiPort_upcall_OnGetFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(swig_p.SwigcptrPiPort), C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_486(_swig_i_2), C.swig_type_487(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap__swig_DirectorPiPort_upcall_OnGetFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(swig_p.SwigcptrPiPort), C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_487(_swig_i_2), C.swig_type_488(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
 func DirectorPiPortOnGetFrame(p PiPort, arg2 Pjmedia_frame_type, arg3 uintptr, arg4 int64, arg5 uint64, arg6 uint) {
@@ -29788,7 +29753,7 @@ func DirectorPiPortOnGetFrame(p PiPort, arg2 Pjmedia_frame_type, arg3 uintptr, a
 	_swig_i_2 := arg4
 	_swig_i_3 := arg5
 	_swig_i_4 := arg6
-	C._wrap__swig_DirectorPiPort_upcall_OnGetFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(p.(*_swig_DirectorPiPort).SwigcptrPiPort), C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_486(_swig_i_2), C.swig_type_487(_swig_i_3), C.swig_intgo(_swig_i_4))
+	C._wrap__swig_DirectorPiPort_upcall_OnGetFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(p.(*_swig_DirectorPiPort).SwigcptrPiPort), C.swig_intgo(_swig_i_0), C.uintptr_t(_swig_i_1), C.swig_type_487(_swig_i_2), C.swig_type_488(_swig_i_3), C.swig_intgo(_swig_i_4))
 }
 
 //export Swig_DirectorPiPort_callback_onGetFrame_pjsua2_d4108fe45f6933ce
@@ -29904,7 +29869,7 @@ func (arg1 SwigcptrPiPort) OnPutFrame(arg2 Pjmedia_frame_type, arg3 uintptr, arg
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_PiPort_onPutFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_type_484(_swig_i_3), C.swig_type_485(_swig_i_4), C.swig_intgo(_swig_i_5))
+	C._wrap_PiPort_onPutFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_type_485(_swig_i_3), C.swig_type_486(_swig_i_4), C.swig_intgo(_swig_i_5))
 }
 
 func (arg1 SwigcptrPiPort) OnGetFrame(arg2 Pjmedia_frame_type, arg3 uintptr, arg4 int64, arg5 uint64, arg6 uint) {
@@ -29914,7 +29879,7 @@ func (arg1 SwigcptrPiPort) OnGetFrame(arg2 Pjmedia_frame_type, arg3 uintptr, arg
 	_swig_i_3 := arg4
 	_swig_i_4 := arg5
 	_swig_i_5 := arg6
-	C._wrap_PiPort_onGetFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_type_486(_swig_i_3), C.swig_type_487(_swig_i_4), C.swig_intgo(_swig_i_5))
+	C._wrap_PiPort_onGetFrame_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), C.uintptr_t(_swig_i_2), C.swig_type_487(_swig_i_3), C.swig_type_488(_swig_i_4), C.swig_intgo(_swig_i_5))
 }
 
 func (arg1 SwigcptrPiPort) OnDestroy() {
@@ -30071,7 +30036,7 @@ func DeleteJsonDocument(arg1 JsonDocument) {
 func (arg1 SwigcptrJsonDocument) LoadFile(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_JsonDocument_loadFile_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_488)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_JsonDocument_loadFile_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_489)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30080,7 +30045,7 @@ func (arg1 SwigcptrJsonDocument) LoadFile(arg2 string) {
 func (arg1 SwigcptrJsonDocument) LoadString(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_JsonDocument_loadString_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_489)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_JsonDocument_loadString_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_490)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30089,7 +30054,7 @@ func (arg1 SwigcptrJsonDocument) LoadString(arg2 string) {
 func (arg1 SwigcptrJsonDocument) SaveFile(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_JsonDocument_saveFile_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_490)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_JsonDocument_saveFile_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_491)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30101,7 +30066,7 @@ func (arg1 SwigcptrJsonDocument) SaveString() (_swig_ret string) {
 	swig_r_p := C._wrap_JsonDocument_saveString_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -30123,14 +30088,14 @@ func (_swig_base SwigcptrJsonDocument) UnreadName() (_swig_ret string) {
 	swig_r_p := C._wrap_JsonDocument_unreadName_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (_swig_base SwigcptrJsonDocument) ReadInt__SWIG_0(arg1 string) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
-	swig_r = (int)(C._wrap_JsonDocument_readInt__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_493)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (int)(C._wrap_JsonDocument_readInt__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_494)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30157,7 +30122,7 @@ func (p SwigcptrJsonDocument) ReadInt(a ...interface{}) int {
 func (_swig_base SwigcptrJsonDocument) ReadNumber__SWIG_0(arg1 string) (_swig_ret float32) {
 	var swig_r float32
 	_swig_i_0 := arg1
-	swig_r = (float32)(C._wrap_JsonDocument_readNumber__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_494)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (float32)(C._wrap_JsonDocument_readNumber__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_495)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30184,7 +30149,7 @@ func (p SwigcptrJsonDocument) ReadNumber(a ...interface{}) float32 {
 func (_swig_base SwigcptrJsonDocument) ReadBool__SWIG_0(arg1 string) (_swig_ret bool) {
 	var swig_r bool
 	_swig_i_0 := arg1
-	swig_r = (bool)(C._wrap_JsonDocument_readBool__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_495)(unsafe.Pointer(&_swig_i_0))))
+	swig_r = (bool)(C._wrap_JsonDocument_readBool__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_496)(unsafe.Pointer(&_swig_i_0))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30211,13 +30176,13 @@ func (p SwigcptrJsonDocument) ReadBool(a ...interface{}) bool {
 func (_swig_base SwigcptrJsonDocument) ReadString__SWIG_0(arg1 string) (_swig_ret string) {
 	var swig_r string
 	_swig_i_0 := arg1
-	swig_r_p := C._wrap_JsonDocument_readString__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_497)(unsafe.Pointer(&_swig_i_0)))
+	swig_r_p := C._wrap_JsonDocument_readString__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_498)(unsafe.Pointer(&_swig_i_0)))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -30226,7 +30191,7 @@ func (_swig_base SwigcptrJsonDocument) ReadString__SWIG_1() (_swig_ret string) {
 	swig_r_p := C._wrap_JsonDocument_readString__SWIG_1_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -30244,7 +30209,7 @@ func (p SwigcptrJsonDocument) ReadString(a ...interface{}) string {
 func (_swig_base SwigcptrJsonDocument) ReadStringVector__SWIG_0(arg1 string) (_swig_ret StringVector) {
 	var swig_r StringVector
 	_swig_i_0 := arg1
-	swig_r = (StringVector)(SwigcptrStringVector(C._wrap_JsonDocument_readStringVector__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_499)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (StringVector)(SwigcptrStringVector(C._wrap_JsonDocument_readStringVector__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_500)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30276,7 +30241,7 @@ func (_swig_base SwigcptrJsonDocument) ReadObject(arg1 PersistentObject) {
 func (_swig_base SwigcptrJsonDocument) ReadContainer__SWIG_0(arg1 string) (_swig_ret ContainerNode) {
 	var swig_r ContainerNode
 	_swig_i_0 := arg1
-	swig_r = (ContainerNode)(SwigcptrContainerNode(C._wrap_JsonDocument_readContainer__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_500)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (ContainerNode)(SwigcptrContainerNode(C._wrap_JsonDocument_readContainer__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_501)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30303,7 +30268,7 @@ func (p SwigcptrJsonDocument) ReadContainer(a ...interface{}) ContainerNode {
 func (_swig_base SwigcptrJsonDocument) ReadArray__SWIG_0(arg1 string) (_swig_ret ContainerNode) {
 	var swig_r ContainerNode
 	_swig_i_0 := arg1
-	swig_r = (ContainerNode)(SwigcptrContainerNode(C._wrap_JsonDocument_readArray__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_501)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (ContainerNode)(SwigcptrContainerNode(C._wrap_JsonDocument_readArray__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_502)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30330,7 +30295,7 @@ func (p SwigcptrJsonDocument) ReadArray(a ...interface{}) ContainerNode {
 func (_swig_base SwigcptrJsonDocument) WriteNumber(arg1 string, arg2 float32) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_JsonDocument_writeNumber_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_502)(unsafe.Pointer(&_swig_i_0)), C.float(_swig_i_1))
+	C._wrap_JsonDocument_writeNumber_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_503)(unsafe.Pointer(&_swig_i_0)), C.float(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30339,7 +30304,7 @@ func (_swig_base SwigcptrJsonDocument) WriteNumber(arg1 string, arg2 float32) {
 func (_swig_base SwigcptrJsonDocument) WriteInt(arg1 string, arg2 int) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_JsonDocument_writeInt_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_503)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))
+	C._wrap_JsonDocument_writeInt_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_504)(unsafe.Pointer(&_swig_i_0)), C.swig_intgo(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30348,7 +30313,7 @@ func (_swig_base SwigcptrJsonDocument) WriteInt(arg1 string, arg2 int) {
 func (_swig_base SwigcptrJsonDocument) WriteBool(arg1 string, arg2 bool) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_JsonDocument_writeBool_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_504)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
+	C._wrap_JsonDocument_writeBool_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_505)(unsafe.Pointer(&_swig_i_0)), C._Bool(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30357,7 +30322,7 @@ func (_swig_base SwigcptrJsonDocument) WriteBool(arg1 string, arg2 bool) {
 func (_swig_base SwigcptrJsonDocument) WriteString(arg1 string, arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_JsonDocument_writeString_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_505)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_506)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_JsonDocument_writeString_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_506)(unsafe.Pointer(&_swig_i_0)), *(*C.swig_type_507)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30369,7 +30334,7 @@ func (_swig_base SwigcptrJsonDocument) WriteString(arg1 string, arg2 string) {
 func (_swig_base SwigcptrJsonDocument) WriteStringVector(arg1 string, arg2 StringVector) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2.Swigcptr()
-	C._wrap_JsonDocument_writeStringVector_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_507)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))
+	C._wrap_JsonDocument_writeStringVector_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_508)(unsafe.Pointer(&_swig_i_0)), C.uintptr_t(_swig_i_1))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30383,7 +30348,7 @@ func (_swig_base SwigcptrJsonDocument) WriteObject(arg1 PersistentObject) {
 func (_swig_base SwigcptrJsonDocument) WriteNewContainer(arg1 string) (_swig_ret ContainerNode) {
 	var swig_r ContainerNode
 	_swig_i_0 := arg1
-	swig_r = (ContainerNode)(SwigcptrContainerNode(C._wrap_JsonDocument_writeNewContainer_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_508)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (ContainerNode)(SwigcptrContainerNode(C._wrap_JsonDocument_writeNewContainer_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_509)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30393,7 +30358,7 @@ func (_swig_base SwigcptrJsonDocument) WriteNewContainer(arg1 string) (_swig_ret
 func (_swig_base SwigcptrJsonDocument) WriteNewArray(arg1 string) (_swig_ret ContainerNode) {
 	var swig_r ContainerNode
 	_swig_i_0 := arg1
-	swig_r = (ContainerNode)(SwigcptrContainerNode(C._wrap_JsonDocument_writeNewArray_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_509)(unsafe.Pointer(&_swig_i_0)))))
+	swig_r = (ContainerNode)(SwigcptrContainerNode(C._wrap_JsonDocument_writeNewArray_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_base), *(*C.swig_type_510)(unsafe.Pointer(&_swig_i_0)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg1
 	}
@@ -30462,7 +30427,7 @@ func (arg1 SwigcptrOnNatDetectionCompleteParam) GetStatus() (_swig_ret int) {
 func (arg1 SwigcptrOnNatDetectionCompleteParam) SetReason(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_OnNatDetectionCompleteParam_reason_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_510)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_OnNatDetectionCompleteParam_reason_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_511)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30474,7 +30439,7 @@ func (arg1 SwigcptrOnNatDetectionCompleteParam) GetReason() (_swig_ret string) {
 	swig_r_p := C._wrap_OnNatDetectionCompleteParam_reason_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -30494,7 +30459,7 @@ func (arg1 SwigcptrOnNatDetectionCompleteParam) GetNatType() (_swig_ret Pj_stun_
 func (arg1 SwigcptrOnNatDetectionCompleteParam) SetNatTypeName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_OnNatDetectionCompleteParam_natTypeName_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_512)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_OnNatDetectionCompleteParam_natTypeName_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_513)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30506,7 +30471,7 @@ func (arg1 SwigcptrOnNatDetectionCompleteParam) GetNatTypeName() (_swig_ret stri
 	swig_r_p := C._wrap_OnNatDetectionCompleteParam_natTypeName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -30572,7 +30537,7 @@ func (arg1 SwigcptrOnNatCheckStunServersCompleteParam) GetStatus() (_swig_ret in
 func (arg1 SwigcptrOnNatCheckStunServersCompleteParam) SetName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_OnNatCheckStunServersCompleteParam_name_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_514)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_OnNatCheckStunServersCompleteParam_name_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_515)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30584,14 +30549,14 @@ func (arg1 SwigcptrOnNatCheckStunServersCompleteParam) GetName() (_swig_ret stri
 	swig_r_p := C._wrap_OnNatCheckStunServersCompleteParam_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (arg1 SwigcptrOnNatCheckStunServersCompleteParam) SetAddr(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_OnNatCheckStunServersCompleteParam_addr_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_516)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_OnNatCheckStunServersCompleteParam_addr_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_517)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30603,7 +30568,7 @@ func (arg1 SwigcptrOnNatCheckStunServersCompleteParam) GetAddr() (_swig_ret stri
 	swig_r_p := C._wrap_OnNatCheckStunServersCompleteParam_addr_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -30711,7 +30676,7 @@ func (arg1 SwigcptrSslCertName) GetXtype() (_swig_ret Pj_ssl_cert_name_type) {
 func (arg1 SwigcptrSslCertName) SetName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SslCertName_name_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_518)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_SslCertName_name_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_519)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30723,7 +30688,7 @@ func (arg1 SwigcptrSslCertName) GetName() (_swig_ret string) {
 	swig_r_p := C._wrap_SslCertName_name_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -30785,7 +30750,7 @@ func (arg1 SwigcptrSslCertInfo) GetSerialNo() (_swig_ret *byte) {
 func (arg1 SwigcptrSslCertInfo) SetSubjectCn(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SslCertInfo_subjectCn_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_520)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_SslCertInfo_subjectCn_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_521)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30797,14 +30762,14 @@ func (arg1 SwigcptrSslCertInfo) GetSubjectCn() (_swig_ret string) {
 	swig_r_p := C._wrap_SslCertInfo_subjectCn_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (arg1 SwigcptrSslCertInfo) SetSubjectInfo(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SslCertInfo_subjectInfo_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_522)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_SslCertInfo_subjectInfo_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_523)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30816,14 +30781,14 @@ func (arg1 SwigcptrSslCertInfo) GetSubjectInfo() (_swig_ret string) {
 	swig_r_p := C._wrap_SslCertInfo_subjectInfo_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (arg1 SwigcptrSslCertInfo) SetIssuerCn(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SslCertInfo_issuerCn_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_524)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_SslCertInfo_issuerCn_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_525)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30835,14 +30800,14 @@ func (arg1 SwigcptrSslCertInfo) GetIssuerCn() (_swig_ret string) {
 	swig_r_p := C._wrap_SslCertInfo_issuerCn_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (arg1 SwigcptrSslCertInfo) SetIssuerInfo(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SslCertInfo_issuerInfo_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_526)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_SslCertInfo_issuerInfo_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_527)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30854,7 +30819,7 @@ func (arg1 SwigcptrSslCertInfo) GetIssuerInfo() (_swig_ret string) {
 	swig_r_p := C._wrap_SslCertInfo_issuerInfo_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -30913,7 +30878,7 @@ func (arg1 SwigcptrSslCertInfo) GetSubjectAltName() (_swig_ret SslCertNameVector
 func (arg1 SwigcptrSslCertInfo) SetRaw(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_SslCertInfo_raw_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_528)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_SslCertInfo_raw_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_529)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -30925,7 +30890,7 @@ func (arg1 SwigcptrSslCertInfo) GetRaw() (_swig_ret string) {
 	swig_r_p := C._wrap_SslCertInfo_raw_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -31026,7 +30991,7 @@ func (arg1 SwigcptrTlsInfo) GetCipher() (_swig_ret Pj_ssl_cipher) {
 func (arg1 SwigcptrTlsInfo) SetCipherName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TlsInfo_cipherName_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_530)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_TlsInfo_cipherName_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_531)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -31038,14 +31003,14 @@ func (arg1 SwigcptrTlsInfo) GetCipherName() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsInfo_cipherName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (arg1 SwigcptrTlsInfo) SetLocalAddr(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TlsInfo_localAddr_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_532)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_TlsInfo_localAddr_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_533)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -31057,14 +31022,14 @@ func (arg1 SwigcptrTlsInfo) GetLocalAddr() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsInfo_localAddr_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (arg1 SwigcptrTlsInfo) SetRemoteAddr(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_TlsInfo_remoteAddr_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_534)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_TlsInfo_remoteAddr_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_535)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -31076,7 +31041,7 @@ func (arg1 SwigcptrTlsInfo) GetRemoteAddr() (_swig_ret string) {
 	swig_r_p := C._wrap_TlsInfo_remoteAddr_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -31201,7 +31166,7 @@ func (arg1 SwigcptrOnTransportStateParam) GetHnd() (_swig_ret uintptr) {
 func (arg1 SwigcptrOnTransportStateParam) SetXtype(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_OnTransportStateParam_Xtype_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_536)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_OnTransportStateParam_Xtype_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_537)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -31213,7 +31178,7 @@ func (arg1 SwigcptrOnTransportStateParam) GetXtype() (_swig_ret string) {
 	swig_r_p := C._wrap_OnTransportStateParam_Xtype_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -31679,7 +31644,7 @@ func (arg1 SwigcptrUaConfig) GetOutboundProxies() (_swig_ret StringVector) {
 func (arg1 SwigcptrUaConfig) SetUserAgent(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_UaConfig_userAgent_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_538)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_UaConfig_userAgent_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_539)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -31691,7 +31656,7 @@ func (arg1 SwigcptrUaConfig) GetUserAgent() (_swig_ret string) {
 	swig_r_p := C._wrap_UaConfig_userAgent_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -31846,7 +31811,7 @@ func (arg1 SwigcptrLogEntry) GetLevel() (_swig_ret int) {
 func (arg1 SwigcptrLogEntry) SetMsg(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_LogEntry_msg_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_540)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_LogEntry_msg_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_541)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -31858,14 +31823,14 @@ func (arg1 SwigcptrLogEntry) GetMsg() (_swig_ret string) {
 	swig_r_p := C._wrap_LogEntry_msg_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
 func (arg1 SwigcptrLogEntry) SetThreadId(arg2 int64) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_LogEntry_threadId_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_542(_swig_i_1))
+	C._wrap_LogEntry_threadId_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_type_543(_swig_i_1))
 }
 
 func (arg1 SwigcptrLogEntry) GetThreadId() (_swig_ret int64) {
@@ -31878,7 +31843,7 @@ func (arg1 SwigcptrLogEntry) GetThreadId() (_swig_ret int64) {
 func (arg1 SwigcptrLogEntry) SetThreadName(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_LogEntry_threadName_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_544)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_LogEntry_threadName_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_545)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -31890,7 +31855,7 @@ func (arg1 SwigcptrLogEntry) GetThreadName() (_swig_ret string) {
 	swig_r_p := C._wrap_LogEntry_threadName_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -32064,7 +32029,7 @@ func (arg1 SwigcptrLogConfig) GetDecor() (_swig_ret uint) {
 func (arg1 SwigcptrLogConfig) SetFilename(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_LogConfig_filename_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_546)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_LogConfig_filename_set_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_547)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -32076,7 +32041,7 @@ func (arg1 SwigcptrLogConfig) GetFilename() (_swig_ret string) {
 	swig_r_p := C._wrap_LogConfig_filename_get_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -32935,7 +32900,7 @@ func (arg1 SwigcptrEndpoint) LibStart() {
 func (arg1 SwigcptrEndpoint) LibRegisterThread(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Endpoint_libRegisterThread_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_548)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_Endpoint_libRegisterThread_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_549)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -32992,7 +32957,7 @@ func (arg1 SwigcptrEndpoint) UtilStrError(arg2 int) (_swig_ret string) {
 	swig_r_p := C._wrap_Endpoint_utilStrError_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1))
 	swig_r = *(*string)(unsafe.Pointer(&swig_r_p))
 	var swig_r_1 string
- swig_r_1 = swigCopyString(swig_r)
+ swig_r_1 = swigCopyString(swig_r) 
 	return swig_r_1
 }
 
@@ -33001,7 +32966,7 @@ func (arg1 SwigcptrEndpoint) UtilLogWrite__SWIG_0(arg2 int, arg3 string, arg4 st
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
 	_swig_i_3 := arg4
-	C._wrap_Endpoint_utilLogWrite__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), *(*C.swig_type_550)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_551)(unsafe.Pointer(&_swig_i_3)))
+	C._wrap_Endpoint_utilLogWrite__SWIG_0_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), C.swig_intgo(_swig_i_1), *(*C.swig_type_551)(unsafe.Pointer(&_swig_i_2)), *(*C.swig_type_552)(unsafe.Pointer(&_swig_i_3)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg3
 	}
@@ -33033,7 +32998,7 @@ func (arg1 SwigcptrEndpoint) UtilVerifySipUri(arg2 string) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_Endpoint_utilVerifySipUri_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_552)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_Endpoint_utilVerifySipUri_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_553)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33044,7 +33009,7 @@ func (arg1 SwigcptrEndpoint) UtilVerifyUri(arg2 string) (_swig_ret int) {
 	var swig_r int
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (int)(C._wrap_Endpoint_utilVerifyUri_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_553)(unsafe.Pointer(&_swig_i_1))))
+	swig_r = (int)(C._wrap_Endpoint_utilVerifyUri_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_554)(unsafe.Pointer(&_swig_i_1))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33253,7 +33218,7 @@ func (arg1 SwigcptrEndpoint) CodecSetPriority(arg2 string, arg3 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Endpoint_codecSetPriority_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_554)(unsafe.Pointer(&_swig_i_1)), C.char(_swig_i_2))
+	C._wrap_Endpoint_codecSetPriority_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_555)(unsafe.Pointer(&_swig_i_1)), C.char(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33263,7 +33228,7 @@ func (arg1 SwigcptrEndpoint) CodecGetParam(arg2 string) (_swig_ret CodecParam) {
 	var swig_r CodecParam
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (CodecParam)(SwigcptrCodecParam(C._wrap_Endpoint_codecGetParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_555)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (CodecParam)(SwigcptrCodecParam(C._wrap_Endpoint_codecGetParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_556)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33274,7 +33239,7 @@ func (arg1 SwigcptrEndpoint) CodecSetParam(arg2 string, arg3 CodecParam) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_Endpoint_codecSetParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_556)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_Endpoint_codecSetParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_557)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33291,7 +33256,7 @@ func (arg1 SwigcptrEndpoint) VideoCodecSetPriority(arg2 string, arg3 byte) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3
-	C._wrap_Endpoint_videoCodecSetPriority_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_557)(unsafe.Pointer(&_swig_i_1)), C.char(_swig_i_2))
+	C._wrap_Endpoint_videoCodecSetPriority_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_558)(unsafe.Pointer(&_swig_i_1)), C.char(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33301,7 +33266,7 @@ func (arg1 SwigcptrEndpoint) GetVideoCodecParam(arg2 string) (_swig_ret VidCodec
 	var swig_r VidCodecParam
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	swig_r = (VidCodecParam)(SwigcptrVidCodecParam(C._wrap_Endpoint_getVideoCodecParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_558)(unsafe.Pointer(&_swig_i_1)))))
+	swig_r = (VidCodecParam)(SwigcptrVidCodecParam(C._wrap_Endpoint_getVideoCodecParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_559)(unsafe.Pointer(&_swig_i_1)))))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33312,7 +33277,7 @@ func (arg1 SwigcptrEndpoint) SetVideoCodecParam(arg2 string, arg3 VidCodecParam)
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
 	_swig_i_2 := arg3.Swigcptr()
-	C._wrap_Endpoint_setVideoCodecParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_559)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
+	C._wrap_Endpoint_setVideoCodecParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_560)(unsafe.Pointer(&_swig_i_1)), C.uintptr_t(_swig_i_2))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33321,7 +33286,7 @@ func (arg1 SwigcptrEndpoint) SetVideoCodecParam(arg2 string, arg3 VidCodecParam)
 func (arg1 SwigcptrEndpoint) ResetVideoCodecParam(arg2 string) {
 	_swig_i_0 := arg1
 	_swig_i_1 := arg2
-	C._wrap_Endpoint_resetVideoCodecParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_560)(unsafe.Pointer(&_swig_i_1)))
+	C._wrap_Endpoint_resetVideoCodecParam_pjsua2_d4108fe45f6933ce(C.uintptr_t(_swig_i_0), *(*C.swig_type_561)(unsafe.Pointer(&_swig_i_1)))
 	if Swig_escape_always_false {
 		Swig_escape_val = arg2
 	}
@@ -33545,7 +33510,7 @@ func (p SwigcptrSwigDirector_Call) Swigcptr() uintptr {
 
 
 var swigDirectorTrack struct {
-	sync.RWMutex
+	sync.Mutex
 	m map[int]interface{}
 	c int
 }
@@ -33563,8 +33528,8 @@ func swigDirectorAdd(v interface{}) int {
 }
 
 func swigDirectorLookup(c int) interface{} {
-	swigDirectorTrack.RLock()
-	defer swigDirectorTrack.RUnlock()
+	swigDirectorTrack.Lock()
+	defer swigDirectorTrack.Unlock()
 	ret := swigDirectorTrack.m[c]
 	if ret == nil {
 		panic("C++ director pointer not found (possible	use-after-free)")

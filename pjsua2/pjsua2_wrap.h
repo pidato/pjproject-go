@@ -215,10 +215,6 @@ class SwigDirector_PiRecorder : public PiRecorder
     PiRecorder::onError(e);
   }
   virtual void onError(pj::Error &e);
-  void _swig_upcall_onFrameDTX(void *frame, pj_uint64_t prevExternCPU) {
-    PiRecorder::onFrameDTX(frame,prevExternCPU);
-  }
-  virtual void onFrameDTX(void *frame, pj_uint64_t prevExternCPU);
   void _swig_upcall_onFrame(void *frame, pj_uint64_t prevExternCPU) {
     PiRecorder::onFrame(frame,prevExternCPU);
   }
@@ -237,14 +233,14 @@ class SwigDirector_PiPort : public PiPort
  public:
   SwigDirector_PiPort(int swig_p);
   virtual ~SwigDirector_PiPort();
-  void _swig_upcall_onPutFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info) {
+  void _swig_upcall_onPutFrame(pjmedia_frame_type frameType, void *pcm, size_t size, unsigned long long timestamp, unsigned int bit_info) {
     PiPort::onPutFrame(frameType,pcm,size,timestamp,bit_info);
   }
-  virtual void onPutFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info);
-  void _swig_upcall_onGetFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info) {
+  virtual void onPutFrame(pjmedia_frame_type frameType, void *pcm, size_t size, unsigned long long timestamp, unsigned int bit_info);
+  void _swig_upcall_onGetFrame(pjmedia_frame_type frameType, void *pcm, size_t size, unsigned long long timestamp, unsigned int bit_info) {
     PiPort::onGetFrame(frameType,pcm,size,timestamp,bit_info);
   }
-  virtual void onGetFrame(pjmedia_frame_type frameType, void *pcm, pj_size_t size, pj_uint64_t timestamp, pj_uint32_t bit_info);
+  virtual void onGetFrame(pjmedia_frame_type frameType, void *pcm, size_t size, unsigned long long timestamp, unsigned int bit_info);
   void _swig_upcall_onDestroy() {
     PiPort::onDestroy();
   }

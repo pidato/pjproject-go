@@ -3,6 +3,7 @@ package main
 import "C"
 import (
 	"fmt"
+	"github.com/pidato/audio/opus"
 	"github.com/pidato/pjproject-go"
 	"github.com/pidato/pjproject-go/pjsua2"
 	"github.com/rs/zerolog"
@@ -13,6 +14,13 @@ import (
 	_ "github.com/pidato/audio/opus"
 	_ "github.com/pidato/vad-go"
 )
+
+func fibrec(n int) int {
+	if n <= 1 {
+		return n
+	}
+	return fibrec(n-1) + fibrec(n-2)
+}
 
 func main() {
 	defer func() {
@@ -39,7 +47,7 @@ func main() {
 	runtime.LockOSThread()
 	defer runtime.UnlockOSThread()
 	if !pjsua2.EndpointInstance().LibIsThreadRegistered() {
-		pjsua2.EndpointInstance().LibRegisterThread("")
+		pjsua2.EndpointInstance().LibRegisterThread("main")
 	}
 
 	player := pjsua2.NewAudioMediaPlayer()
@@ -51,6 +59,13 @@ func main() {
 	}
 	encoder.director = pjsua2.NewDirectorPiRecorder(encoder)
 	encoder.director.Create()
+
+	encoder.multiple = 48000 / int(encoder.director.GetClockRate())
+	//out, err := opus.CreateFile("out.opus", uint32(encoder.director.GetClockRate()), 1)
+	//if err != nil {
+	//	panic(err)
+	//}
+	//encoder.writer = out
 	//pjsua2.PiEncoderAddEncoderThreads(3)
 
 	go func() {
@@ -76,6 +91,9 @@ type Recorder struct {
 	directorCPU uint64
 	speaking    bool
 
+	writer *opus.OggWriter
+	multiple int
+
 	ch chan uint64
 }
 
@@ -85,16 +103,6 @@ func (enc *Recorder) OnHeartbeat() {
 
 func (enc *Recorder) OnError(err pjsua2.Error) {
 	fmt.Printf("Err: %s\n", err.GetReason())
-}
-
-func (enc *Recorder) OnFrameDTX(framePointer uintptr, prevExternCPU uint64) {
-	//frame := (*pjsua2.AudioFrame)(unsafe.Pointer(framePointer))
-	fmt.Println(framePointer)
-	//if frameNum > 0 && frameNum % 50 == 0 {
-	//	fmt.Printf("DTX Frame: %d\n", frameNum)
-	//	fmt.Printf("\tDirector CPU: %d\n", prevExternCPU)
-	//}
-	//enc.directorCPU += prevExternCPU
 }
 
 func (enc *Recorder) OnFrame(framePointer uintptr, prevExternCPU uint64) {
@@ -112,6 +120,11 @@ func (enc *Recorder) OnFrame(framePointer uintptr, prevExternCPU uint64) {
 			enc.speaking = true
 		}
 	}
+
+	//err := enc.writer.Write(frame.Opus[0:frame.OpusSize], int(frame.PcmSamples) * enc.multiple)
+	//if err != nil {
+	//	pj.Errorf("failed to write Opus file: %s", err.Error())
+	//}
 	//fmt.Println(frame.Vad)
 
 	//if frame.FrameNum > 0 && frame.FrameNum%50 == 0 {

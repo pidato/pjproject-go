@@ -22,7 +22,14 @@ type Sound struct {
 
 type Clip struct {
 	Sound *Sound
-	PCM   []int16
+	PCM   [][]int16
+
+	mu sync.Mutex
+}
+
+type ClipPlayer struct {
+	clip  *Clip
+	frame int
 }
 
 type PlaylistPlayer struct {
